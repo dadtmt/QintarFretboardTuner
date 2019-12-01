@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generates E4 string 1`] = `
+Array [
+  "F4",
+  "Gb4",
+  "Abb4",
+  "Bbbb4",
+  "Cbbb5",
+  "Dbbbb5",
+  "Ebbbbb5",
+]
+`;

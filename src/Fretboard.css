@@ -1,0 +1,76 @@
+:root {
+    --background-black-fret: #246B61;
+    --color-black-fret: #6BA099;
+    --background-white-fret: #AA6839;
+    --color-white-fret: #FFCDAA;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+  }
+  
+  ol {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main>ol:nth-child(1) {
+    width: 5%;  
+  }
+  
+  main>ol:nth-child(1) li {
+    text-align: center;
+    height: 15vh;
+  }
+  
+  li>ol {
+    height: 15vh;
+    flex-direction: row;  
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  li li {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.2rem;
+  }
+  
+  li:nth-child(odd) li:nth-child(odd) {
+    background: var(--background-white-fret);
+    color: var(--color-white-fret);
+    
+  }
+  li:nth-child(odd) li:nth-child(even) {
+    background: var(--background-black-fret);
+    color: var(--color-black-fret);
+    
+  }
+  li:nth-child(even) li:nth-child(even) {
+    background: var(--background-white-fret);
+    color: var(--color-white-fret);
+    
+  }
+  li:nth-child(even) li:nth-child(odd) {
+    background: var(--background-black-fret);
+    color: var(--color-black-fret);
+    
+  }
+  
+  li:nth-child(even) {
+    background: #2D4671;
+    color: #7689A9;
+  }
+  
+  li:nth-child(odd) {
+    background: #408E2F;
+    color: #9AD58E;
+  }

@@ -34,6 +34,21 @@ Array [
 ]
 `;
 
+exports[`generates a 10 P5 StringsFlatNote 1`] = `
+Array [
+  "G#6",
+  "C#6",
+  "F#5",
+  "B4",
+  "E4",
+  "A3",
+  "D3",
+  "G2",
+  "C2",
+  "F1",
+]
+`;
+
 exports[`generates a P5 StringsFlatNote 1`] = `
 Array [
   "E4",
@@ -45,4 +60,109 @@ Array [
 ]
 `;
 
-exports[`generates a Quart fretboard 1`] = `null`;
+exports[`generates a Quintar fretboard 1`] = `
+Array [
+  Object {
+    "flatNote": "E4",
+    "frets": Array [
+      "F4",
+      "Gb4",
+      "G4",
+      "Ab4",
+      "A4",
+      "A#4",
+      "B4",
+      "C5",
+      "Db5",
+      "D5",
+      "Eb5",
+      "E5",
+    ],
+  },
+  Object {
+    "flatNote": "A3",
+    "frets": Array [
+      "A#3",
+      "B3",
+      "C4",
+      "Db4",
+      "D4",
+      "D#4",
+      "E4",
+      "F4",
+      "Gb4",
+      "G4",
+      "Ab4",
+      "A4",
+    ],
+  },
+  Object {
+    "flatNote": "D3",
+    "frets": Array [
+      "D#3",
+      "E3",
+      "F3",
+      "Gb3",
+      "G3",
+      "G#3",
+      "A3",
+      "A#3",
+      "B3",
+      "C4",
+      "Db4",
+      "D4",
+    ],
+  },
+  Object {
+    "flatNote": "G2",
+    "frets": Array [
+      "G#2",
+      "A2",
+      "A#2",
+      "B2",
+      "C3",
+      "C#3",
+      "D3",
+      "D#3",
+      "E3",
+      "F3",
+      "Gb3",
+      "G3",
+    ],
+  },
+  Object {
+    "flatNote": "C2",
+    "frets": Array [
+      "C#2",
+      "D2",
+      "D#2",
+      "E2",
+      "F2",
+      "F#2",
+      "G2",
+      "G#2",
+      "A2",
+      "A#2",
+      "B2",
+      "C3",
+    ],
+  },
+  Object {
+    "flatNote": "F1",
+    "frets": Array [
+      "F#1",
+      "G1",
+      "G#1",
+      "A1",
+      "A#1",
+      "B1",
+      "C2",
+      "C#2",
+      "D2",
+      "D#2",
+      "E2",
+      "F2",
+    ],
+  },
+]
+`;

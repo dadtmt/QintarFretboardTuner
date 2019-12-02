@@ -12,6 +12,10 @@ it('generates a P5 StringsFlatNote', () => {
     expect(generateStringsFromDeepestNote("F1")).toMatchSnapshot()
 })
 
-it('generates a Quart fretboard', () => {
-    expect(generateFretboard()).toMatchSnapshot()
+it('generates a 10 P5 StringsFlatNote', () => {
+    expect(generateStringsFromDeepestNote("F1", 10)).toMatchSnapshot()
+})
+
+it('generates a Quintar fretboard', () => {
+    expect(generateFretboard("F1")).toMatchSnapshot()
 })

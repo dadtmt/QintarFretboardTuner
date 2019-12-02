@@ -9,10 +9,16 @@ const fretIntervals = [
 export const generateString = flatNote => 
     R.map(R.pipe(transposeFrom(flatNote), enharmonic), fretIntervals)
 
-export const generateStringsFromDeepestNote = (flatNote, acc = [] ,stringCount = 6) =>
+export const generateStringsFromDeepestNote = (flatNote, stringCount = 6, acc = []) =>
     stringCount > 0 ? 
-        generateStringsFromDeepestNote(transpose(flatNote,"P5"), [flatNote, ...acc], stringCount - 1)
+        generateStringsFromDeepestNote(transpose(flatNote,"P5"), stringCount - 1, [flatNote, ...acc])
         : acc
 
 
-export const generateFretboard = () => null
+export const generateFretboard = R.pipe(
+    generateStringsFromDeepestNote,
+    R.map(flatNote => ({
+        flatNote,
+        frets: generateString(flatNote)
+    }))
+)

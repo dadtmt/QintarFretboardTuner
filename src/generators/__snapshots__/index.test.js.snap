@@ -33,3 +33,16 @@ Array [
   "E5",
 ]
 `;
+
+exports[`generates a P5 StringsFlatNote 1`] = `
+Array [
+  "E4",
+  "A3",
+  "D3",
+  "G2",
+  "C2",
+  "F1",
+]
+`;
+
+exports[`generates a Quart fretboard 1`] = `null`;

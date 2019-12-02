@@ -6,4 +6,4 @@ const fretIntervals = [
 ]
 
 export const generateString = flatNote => 
-    fretIntervals.map(R.pipe(transposeFrom(flatNote), enharmonic))
+    R.map(R.pipe(transposeFrom(flatNote), enharmonic), fretIntervals)

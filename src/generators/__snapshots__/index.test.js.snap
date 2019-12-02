@@ -2,17 +2,17 @@
 
 exports[`generates A3 string 1`] = `
 Array [
-  "Bb3",
+  "A#3",
   "B3",
   "C4",
-  "C#4",
+  "Db4",
   "D4",
-  "Eb4",
+  "D#4",
   "E4",
   "F4",
-  "F#4",
+  "Gb4",
   "G4",
-  "G#4",
+  "Ab4",
   "A4",
 ]
 `;
@@ -20,16 +20,16 @@ Array [
 exports[`generates E4 string 1`] = `
 Array [
   "F4",
-  "F#4",
+  "Gb4",
   "G4",
-  "G#4",
+  "Ab4",
   "A4",
-  "Bb4",
+  "A#4",
   "B4",
   "C5",
-  "C#5",
+  "Db5",
   "D5",
-  "D#5",
+  "Eb5",
   "E5",
 ]
 `;

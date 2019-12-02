@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/quintar-custom-fretboard/static/css/main.49d9f13f.chunk.css",
+    "main.js": "/quintar-custom-fretboard/static/js/main.ffdf20d5.chunk.js",
+    "main.js.map": "/quintar-custom-fretboard/static/js/main.ffdf20d5.chunk.js.map",
+    "runtime-main.js": "/quintar-custom-fretboard/static/js/runtime-main.4c7cfbf6.js",
+    "runtime-main.js.map": "/quintar-custom-fretboard/static/js/runtime-main.4c7cfbf6.js.map",
+    "static/js/2.ed7ad29a.chunk.js": "/quintar-custom-fretboard/static/js/2.ed7ad29a.chunk.js",
+    "static/js/2.ed7ad29a.chunk.js.map": "/quintar-custom-fretboard/static/js/2.ed7ad29a.chunk.js.map",
+    "index.html": "/quintar-custom-fretboard/index.html",
+    "precache-manifest.15cea57722d697f49cf5581b4a1062bc.js": "/quintar-custom-fretboard/precache-manifest.15cea57722d697f49cf5581b4a1062bc.js",
+    "service-worker.js": "/quintar-custom-fretboard/service-worker.js",
+    "static/css/main.49d9f13f.chunk.css.map": "/quintar-custom-fretboard/static/css/main.49d9f13f.chunk.css.map",
+    "static/media/logo.svg": "/quintar-custom-fretboard/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c7cfbf6.js",
+    "static/js/2.ed7ad29a.chunk.js",
+    "static/css/main.49d9f13f.chunk.css",
+    "static/js/main.ffdf20d5.chunk.js"
+  ]
+}

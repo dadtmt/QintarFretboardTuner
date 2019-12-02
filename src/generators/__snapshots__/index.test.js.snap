@@ -1,13 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`generates A3 string 1`] = `
+Array [
+  "Bb3",
+  "B3",
+  "C4",
+  "C#4",
+  "D4",
+  "Eb4",
+  "E4",
+  "F4",
+  "F#4",
+  "G4",
+  "G#4",
+  "A4",
+]
+`;
+
 exports[`generates E4 string 1`] = `
 Array [
   "F4",
-  "Gb4",
-  "Abb4",
-  "Bbbb4",
-  "Cbbb5",
-  "Dbbbb5",
-  "Ebbbbb5",
+  "F#4",
+  "G4",
+  "G#4",
+  "A4",
+  "Bb4",
+  "B4",
+  "C5",
+  "C#5",
+  "D5",
+  "D#5",
+  "E5",
 ]
 `;

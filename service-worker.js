@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/QintarFretboardTuner/precache-manifest.257ce2d563a7f719d5fb478f02c62bdb.js"
+  "/QintarFretboardTuner/precache-manifest.1b3dd711fcc369cde66a3cf1226875be.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,22 +1,21 @@
 {
   "files": {
     "main.css": "/QintarFretboardTuner/static/css/main.49d9f13f.chunk.css",
-    "main.js": "/QintarFretboardTuner/static/js/main.2845bd5f.chunk.js",
-    "main.js.map": "/QintarFretboardTuner/static/js/main.2845bd5f.chunk.js.map",
+    "main.js": "/QintarFretboardTuner/static/js/main.dba8cb50.chunk.js",
+    "main.js.map": "/QintarFretboardTuner/static/js/main.dba8cb50.chunk.js.map",
     "runtime-main.js": "/QintarFretboardTuner/static/js/runtime-main.fd37a7ab.js",
     "runtime-main.js.map": "/QintarFretboardTuner/static/js/runtime-main.fd37a7ab.js.map",
-    "static/js/2.ed7ad29a.chunk.js": "/QintarFretboardTuner/static/js/2.ed7ad29a.chunk.js",
-    "static/js/2.ed7ad29a.chunk.js.map": "/QintarFretboardTuner/static/js/2.ed7ad29a.chunk.js.map",
+    "static/js/2.8d0b35f0.chunk.js": "/QintarFretboardTuner/static/js/2.8d0b35f0.chunk.js",
+    "static/js/2.8d0b35f0.chunk.js.map": "/QintarFretboardTuner/static/js/2.8d0b35f0.chunk.js.map",
     "index.html": "/QintarFretboardTuner/index.html",
-    "precache-manifest.257ce2d563a7f719d5fb478f02c62bdb.js": "/QintarFretboardTuner/precache-manifest.257ce2d563a7f719d5fb478f02c62bdb.js",
+    "precache-manifest.1b3dd711fcc369cde66a3cf1226875be.js": "/QintarFretboardTuner/precache-manifest.1b3dd711fcc369cde66a3cf1226875be.js",
     "service-worker.js": "/QintarFretboardTuner/service-worker.js",
-    "static/css/main.49d9f13f.chunk.css.map": "/QintarFretboardTuner/static/css/main.49d9f13f.chunk.css.map",
-    "static/media/logo.svg": "/QintarFretboardTuner/static/media/logo.25bf045c.svg"
+    "static/css/main.49d9f13f.chunk.css.map": "/QintarFretboardTuner/static/css/main.49d9f13f.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.fd37a7ab.js",
-    "static/js/2.ed7ad29a.chunk.js",
+    "static/js/2.8d0b35f0.chunk.js",
     "static/css/main.49d9f13f.chunk.css",
-    "static/js/main.2845bd5f.chunk.js"
+    "static/js/main.dba8cb50.chunk.js"
   ]
 }

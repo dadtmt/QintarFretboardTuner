@@ -4,7 +4,7 @@ import { generateFretboard } from './generators'
 import './Fretboard.css'
 
 function Fretboard() {
-  const [inputError, setInputError] = useState(false)
+  const [noteInputError, setNoteInputError] = useState(false)
   const [deepestNote, setDeepestNote] = useState('F1')
   const [fretboard, setFretboard] = useState(generateFretboard('F1'))
 
@@ -20,16 +20,16 @@ function Fretboard() {
               const value = e.target.value
               const noteValue = simplify(value)
               if (noteValue) {
-                setInputError(false)
+                setNoteInputError(false)
                 setFretboard(generateFretboard(noteValue))
               } else {
-                setInputError(true)
+                setNoteInputError(true)
               }
               setDeepestNote(value)
             }}
           />
         </label>
-        {inputError && <span>not a valid note</span>}
+        {noteInputError && <span>not a valid note</span>}
       </form>
       <main>
         <ol>

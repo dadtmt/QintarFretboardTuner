@@ -5,17 +5,17 @@ import './Fretboard.css'
 
 function Fretboard() {
   const [inputError, setInputError] = useState(false)
-  const [lowestNote, setLowestNote] = useState('F1')
+  const [deepestNote, setDeepestNote] = useState('F1')
   const [fretboard, setFretboard] = useState(generateFretboard('F1'))
 
   return (
     <Fragment>
       <form action="">
         <label htmlFor="lowest-note">
-          Lowest note:
+          Deepest note:
           <input
             type="text"
-            value={lowestNote}
+            value={deepestNote}
             onChange={e => {
               const value = e.target.value
               const noteValue = simplify(value)
@@ -25,7 +25,7 @@ function Fretboard() {
               } else {
                 setInputError(true)
               }
-              setLowestNote(value)
+              setDeepestNote(value)
             }}
           />
         </label>

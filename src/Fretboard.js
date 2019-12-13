@@ -18,6 +18,7 @@ function Fretboard() {
             value={deepestNote}
             onChange={e => {
               const value = e.target.value
+              console.log("value", value)
               const noteValue = simplify(value)
               if (noteValue) {
                 setInputError(false)

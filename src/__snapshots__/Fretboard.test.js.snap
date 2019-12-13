@@ -8,7 +8,7 @@ Array [
     <label
       htmlFor="lowest-note"
     >
-      Lowest note:
+      Deepest note:
       <input
         onChange={[Function]}
         type="text"
@@ -281,4 +281,29 @@ Array [
     </ol>
   </main>,
 ]
+`;
+
+exports[`renders correctly 2`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -7,13 +7,16 @@
+      >
+        Deepest note:
+        <input
+          onChange={[Function onChange]}
+          type=\\"text\\"
+-         value=\\"F1\\"
++         value=\\"xVfGu\\"
+        />
+      </label>
++     <span>
++       not a valid note
++     </span>
+    </form>,
+    <main>
+      <ol>
+        <li>
+          E4"
 `;

@@ -8,7 +8,7 @@ Array [
     <label
       htmlFor="lowest-note"
     >
-      Lowest note:
+      Deepest note:
       <input
         onChange={[Function]}
         type="text"

@@ -33,15 +33,15 @@ function Fretboard() {
       </form>
       <main>
         <ol>
-          {fretboard.map(string => (
-            <li key={string.flatNote}>{string.flatNote}</li>
+          {fretboard.map(guitarString => (
+            <li key={guitarString.flatNote}>{guitarString.flatNote}</li>
           ))}
         </ol>
         <ol>
-          {fretboard.map(string => (
-            <li key={string.flatNote}>
+          {fretboard.map(guitarString => (
+            <li key={guitarString.flatNote}>
               <ol>
-                {string.frets.map(fret => (
+                {guitarString.frets.map(fret => (
                   <li key={fret}>{fret}</li>
                 ))}
               </ol>

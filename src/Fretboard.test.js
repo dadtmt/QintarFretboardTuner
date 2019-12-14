@@ -17,7 +17,6 @@ it('renders correctly', () => {
   })
 
   const treeUpdate = component.toJSON()
-  console.log(treeUpdate)
   expect(tree).toMatchDiffSnapshot(treeUpdate)
 })
 

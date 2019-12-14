@@ -85,6 +85,7 @@ Array [
           </li>
           <li>
             B3
+            Selected
           </li>
           <li>
             C4
@@ -125,6 +126,7 @@ Array [
           </li>
           <li>
             E3
+            Selected
           </li>
           <li>
             F3
@@ -134,6 +136,7 @@ Array [
           </li>
           <li>
             G3
+            Selected
           </li>
           <li>
             G#3
@@ -146,6 +149,7 @@ Array [
           </li>
           <li>
             B3
+            Selected
           </li>
           <li>
             C4
@@ -174,6 +178,7 @@ Array [
           </li>
           <li>
             C3
+            Selected
           </li>
           <li>
             C#3
@@ -186,6 +191,7 @@ Array [
           </li>
           <li>
             E3
+            Selected
           </li>
           <li>
             F3
@@ -195,6 +201,7 @@ Array [
           </li>
           <li>
             G3
+            Selected
           </li>
         </ol>
       </li>
@@ -235,6 +242,7 @@ Array [
           </li>
           <li>
             C3
+            Selected
           </li>
         </ol>
       </li>

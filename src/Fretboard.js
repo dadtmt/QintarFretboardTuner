@@ -4,9 +4,34 @@ import { chord } from '@tonaljs/chord'
 import { generateFretboard } from './generators'
 import './Fretboard.css'
 
+function TonalInput({ getter, setter, tonalType }) {
+  const [tonalInputError, setTonalInputError] = useState(false)
+  const [tonalValue, setTonalValue] = useState('F1')
+  const handleValueChange = value => {
+    const wantedTonalValue = getter(value)
+    if (wantedTonalValue) {
+      setTonalInputError(false)
+      setter(wantedTonalValue)
+    } else {
+      setTonalInputError(true)
+    }
+    setTonalValue(value)
+  }
+
+  return (
+    <label htmlFor="lowest-note">
+      Deepest note:
+      <input
+        type="text"
+        value={tonalValue}
+        onChange={e => handleValueChange(e.target.value)}
+      />
+      {tonalInputError && <span>{`not a valid ${tonalType}`}</span>}
+    </label>
+  )
+}
+
 function Fretboard() {
-  const [noteInputError, setNoteInputError] = useState(false)
-  const [deepestNote, setDeepestNote] = useState('F1')
   const [chordInput, setChordInput] = useState('Cmaj7')
   const [selectedChord, setSelectedChord] = useState(chord('C3maj7'))
   const [fretboard, setFretboard] = useState(generateFretboard('F1'))
@@ -14,25 +39,11 @@ function Fretboard() {
   return (
     <Fragment>
       <form action="">
-        <label htmlFor="lowest-note">
-          Deepest note:
-          <input
-            type="text"
-            value={deepestNote}
-            onChange={e => {
-              const value = e.target.value
-              const noteValue = simplify(value)
-              if (noteValue) {
-                setNoteInputError(false)
-                setFretboard(generateFretboard(noteValue))
-              } else {
-                setNoteInputError(true)
-              }
-              setDeepestNote(value)
-            }}
-          />
-        </label>
-        {noteInputError && <span>not a valid note</span>}
+        <TonalInput
+          getter={simplify}
+          setter={noteValue => setFretboard(generateFretboard(noteValue))}
+          tonalType="note"
+        />
       </form>
       <main>
         <ol>

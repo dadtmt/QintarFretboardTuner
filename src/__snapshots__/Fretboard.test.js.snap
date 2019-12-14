@@ -296,7 +296,7 @@ exports[`renders correctly 2`] = `
 - First value
 + Second value
 
-@@ -7,13 +7,16 @@
+@@ -7,12 +7,15 @@
       >
         Deepest note:
         <input
@@ -305,13 +305,12 @@ exports[`renders correctly 2`] = `
 -         value=\\"F1\\"
 +         value=\\"xVfGu\\"
         />
++       <span>
++         not a valid note
++       </span>
       </label>
-+     <span>
-+       not a valid note
-+     </span>
     </form>,
     <main>
       <ol>
-        <li>
-          E4"
+        <li>"
 `;

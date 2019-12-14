@@ -74,3 +74,8 @@
     background: #408E2F;
     color: #9AD58E;
   }
+
+  li li.selected {
+    background: rgb(192, 228, 198) !important; 
+    color: black!important;
+  }

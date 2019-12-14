@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from 'react'
 import { simplify } from '@tonaljs/note'
 import { chord } from '@tonaljs/chord'
+import classNames from 'classnames'
 import { generateFretboard } from './generators'
 import './Fretboard.css'
 
@@ -78,9 +79,12 @@ function Fretboard() {
             <li key={guitarString.flatNote}>
               <ol>
                 {guitarString.frets.map(fret => (
-                  <li key={fret}>
+                  <li
+                    key={fret}
+                    className={classNames({
+                      selected: chord(selectedChord).notes.includes(fret)
+                    })}>
                     {fret}
-                    {chord(selectedChord).notes.includes(fret) && 'Selected'}
                   </li>
                 ))}
               </ol>

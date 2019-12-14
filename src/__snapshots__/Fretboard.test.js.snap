@@ -50,248 +50,384 @@ Array [
     <ol>
       <li>
         <ol>
-          <li>
+          <li
+            className=""
+          >
             F4
           </li>
-          <li>
+          <li
+            className=""
+          >
             Gb4
           </li>
-          <li>
+          <li
+            className=""
+          >
             G4
           </li>
-          <li>
+          <li
+            className=""
+          >
             Ab4
           </li>
-          <li>
+          <li
+            className=""
+          >
             A4
           </li>
-          <li>
+          <li
+            className=""
+          >
             A#4
           </li>
-          <li>
+          <li
+            className=""
+          >
             B4
           </li>
-          <li>
+          <li
+            className=""
+          >
             C5
           </li>
-          <li>
+          <li
+            className=""
+          >
             Db5
           </li>
-          <li>
+          <li
+            className=""
+          >
             D5
           </li>
-          <li>
+          <li
+            className=""
+          >
             Eb5
           </li>
-          <li>
+          <li
+            className=""
+          >
             E5
           </li>
         </ol>
       </li>
       <li>
         <ol>
-          <li>
+          <li
+            className=""
+          >
             A#3
           </li>
-          <li>
+          <li
+            className="selected"
+          >
             B3
-            Selected
           </li>
-          <li>
+          <li
+            className=""
+          >
             C4
           </li>
-          <li>
+          <li
+            className=""
+          >
             Db4
           </li>
-          <li>
+          <li
+            className=""
+          >
             D4
           </li>
-          <li>
+          <li
+            className=""
+          >
             D#4
           </li>
-          <li>
+          <li
+            className=""
+          >
             E4
           </li>
-          <li>
+          <li
+            className=""
+          >
             F4
           </li>
-          <li>
+          <li
+            className=""
+          >
             Gb4
           </li>
-          <li>
+          <li
+            className=""
+          >
             G4
           </li>
-          <li>
+          <li
+            className=""
+          >
             Ab4
           </li>
-          <li>
+          <li
+            className=""
+          >
             A4
           </li>
         </ol>
       </li>
       <li>
         <ol>
-          <li>
+          <li
+            className=""
+          >
             D#3
           </li>
-          <li>
+          <li
+            className="selected"
+          >
             E3
-            Selected
           </li>
-          <li>
+          <li
+            className=""
+          >
             F3
           </li>
-          <li>
+          <li
+            className=""
+          >
             Gb3
           </li>
-          <li>
+          <li
+            className="selected"
+          >
             G3
-            Selected
           </li>
-          <li>
+          <li
+            className=""
+          >
             G#3
           </li>
-          <li>
+          <li
+            className=""
+          >
             A3
           </li>
-          <li>
+          <li
+            className=""
+          >
             A#3
           </li>
-          <li>
+          <li
+            className="selected"
+          >
             B3
-            Selected
           </li>
-          <li>
+          <li
+            className=""
+          >
             C4
           </li>
-          <li>
+          <li
+            className=""
+          >
             Db4
           </li>
-          <li>
+          <li
+            className=""
+          >
             D4
           </li>
         </ol>
       </li>
       <li>
         <ol>
-          <li>
+          <li
+            className=""
+          >
             G#2
           </li>
-          <li>
+          <li
+            className=""
+          >
             A2
           </li>
-          <li>
+          <li
+            className=""
+          >
             A#2
           </li>
-          <li>
+          <li
+            className=""
+          >
             B2
           </li>
-          <li>
+          <li
+            className="selected"
+          >
             C3
-            Selected
           </li>
-          <li>
+          <li
+            className=""
+          >
             C#3
           </li>
-          <li>
+          <li
+            className=""
+          >
             D3
           </li>
-          <li>
+          <li
+            className=""
+          >
             D#3
           </li>
-          <li>
+          <li
+            className="selected"
+          >
             E3
-            Selected
           </li>
-          <li>
+          <li
+            className=""
+          >
             F3
           </li>
-          <li>
+          <li
+            className=""
+          >
             Gb3
           </li>
-          <li>
+          <li
+            className="selected"
+          >
             G3
-            Selected
           </li>
         </ol>
       </li>
       <li>
         <ol>
-          <li>
+          <li
+            className=""
+          >
             C#2
           </li>
-          <li>
+          <li
+            className=""
+          >
             D2
           </li>
-          <li>
+          <li
+            className=""
+          >
             D#2
           </li>
-          <li>
+          <li
+            className=""
+          >
             E2
           </li>
-          <li>
+          <li
+            className=""
+          >
             F2
           </li>
-          <li>
+          <li
+            className=""
+          >
             F#2
           </li>
-          <li>
+          <li
+            className=""
+          >
             G2
           </li>
-          <li>
+          <li
+            className=""
+          >
             G#2
           </li>
-          <li>
+          <li
+            className=""
+          >
             A2
           </li>
-          <li>
+          <li
+            className=""
+          >
             A#2
           </li>
-          <li>
+          <li
+            className=""
+          >
             B2
           </li>
-          <li>
+          <li
+            className="selected"
+          >
             C3
-            Selected
           </li>
         </ol>
       </li>
       <li>
         <ol>
-          <li>
+          <li
+            className=""
+          >
             F#1
           </li>
-          <li>
+          <li
+            className=""
+          >
             G1
           </li>
-          <li>
+          <li
+            className=""
+          >
             G#1
           </li>
-          <li>
+          <li
+            className=""
+          >
             A1
           </li>
-          <li>
+          <li
+            className=""
+          >
             A#1
           </li>
-          <li>
+          <li
+            className=""
+          >
             B1
           </li>
-          <li>
+          <li
+            className=""
+          >
             C2
           </li>
-          <li>
+          <li
+            className=""
+          >
             C#2
           </li>
-          <li>
+          <li
+            className=""
+          >
             D2
           </li>
-          <li>
+          <li
+            className=""
+          >
             D#2
           </li>
-          <li>
+          <li
+            className=""
+          >
             E2
           </li>
-          <li>
+          <li
+            className=""
+          >
             F2
           </li>
         </ol>
@@ -395,76 +531,82 @@ exports[`renders correctly 4`] = `
     </form>,
     <main>
       <ol>
-@@ -100,10 +103,11 @@
-            <li>
+@@ -130,11 +133,11 @@
+              className=\\"\\"
+            >
               Db4
             </li>
-            <li>
+            <li
+-             className=\\"\\"
++             className=\\"selected\\"
+            >
               D4
-+             Selected
             </li>
-            <li>
-              D#4
-            </li>
-            <li>
-@@ -131,11 +135,10 @@
-            <li>
+            <li
+              className=\\"\\"
+@@ -179,11 +182,11 @@
+              className=\\"\\"
+            >
               D#3
             </li>
-            <li>
+            <li
+-             className=\\"selected\\"
++             className=\\"\\"
+            >
               E3
--             Selected
             </li>
-            <li>
-              F3
-            </li>
-            <li>
-@@ -164,10 +167,11 @@
-            <li>
+            <li
+              className=\\"\\"
+@@ -229,11 +232,11 @@
+              className=\\"\\"
+            >
               Db4
             </li>
-            <li>
+            <li
+-             className=\\"\\"
++             className=\\"selected\\"
+            >
               D4
-+             Selected
             </li>
           </ol>
         </li>
-        <li>
-          <ol>
-@@ -183,11 +187,10 @@
-            <li>
+@@ -258,11 +261,11 @@
+              className=\\"\\"
+            >
               B2
             </li>
-            <li>
+            <li
+-             className=\\"selected\\"
++             className=\\"\\"
+            >
               C3
--             Selected
             </li>
-            <li>
-              C#3
-            </li>
-            <li>
-@@ -196,11 +199,10 @@
-            <li>
+            <li
+              className=\\"\\"
+@@ -278,11 +281,11 @@
+              className=\\"\\"
+            >
               D#3
             </li>
-            <li>
+            <li
+-             className=\\"selected\\"
++             className=\\"\\"
+            >
               E3
--             Selected
             </li>
-            <li>
-              F3
-            </li>
-            <li>
-@@ -247,11 +249,10 @@
-            <li>
+            <li
+              className=\\"\\"
+@@ -357,11 +360,11 @@
+              className=\\"\\"
+            >
               B2
             </li>
-            <li>
+            <li
+-             className=\\"selected\\"
++             className=\\"\\"
+            >
               C3
--             Selected
             </li>
           </ol>
-        </li>
-        <li>
-          <ol>"
+        </li>"
 `;

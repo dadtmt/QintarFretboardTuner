@@ -6,6 +6,7 @@
     "@tonaljs/chord": "^3.2.3",
     "@tonaljs/note": "^3.2.4",
     "@tonaljs/tonal": "^3.2.2",
+    "classnames": "^2.2.6",
     "gh-pages": "^2.1.1",
     "ramda": "^0.26.1",
     "react": "^16.12.0",

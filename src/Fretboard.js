@@ -81,10 +81,24 @@ function Fretboard() {
                 {guitarString.frets.map(fret => (
                   <li
                     key={fret}
-                    className={classNames({
-                      selected: chord(selectedChord).notes.includes(fret)
-                    })}>
+                    className={classNames(
+                      chord(selectedChord).intervals[
+                        chord(selectedChord).notes.indexOf(fret)
+                      ] &&
+                        `_${
+                          chord(selectedChord).intervals[
+                            chord(selectedChord).notes.indexOf(fret)
+                          ]
+                        }`
+                    )}>
                     {fret}
+                    <div>
+                      {
+                        chord(selectedChord).intervals[
+                          chord(selectedChord).notes.indexOf(fret)
+                        ]
+                      }
+                    </div>
                   </li>
                 ))}
               </ol>

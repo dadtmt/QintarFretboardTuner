@@ -54,61 +54,73 @@ Array [
             className=""
           >
             F4
+            <div />
           </li>
           <li
             className=""
           >
             Gb4
+            <div />
           </li>
           <li
             className=""
           >
             G4
+            <div />
           </li>
           <li
             className=""
           >
             Ab4
+            <div />
           </li>
           <li
             className=""
           >
             A4
+            <div />
           </li>
           <li
             className=""
           >
             A#4
+            <div />
           </li>
           <li
             className=""
           >
             B4
+            <div />
           </li>
           <li
             className=""
           >
             C5
+            <div />
           </li>
           <li
             className=""
           >
             Db5
+            <div />
           </li>
           <li
             className=""
           >
             D5
+            <div />
           </li>
           <li
             className=""
           >
             Eb5
+            <div />
           </li>
           <li
             className=""
           >
             E5
+            <div />
           </li>
         </ol>
       </li>
@@ -118,61 +130,75 @@ Array [
             className=""
           >
             A#3
+            <div />
           </li>
           <li
-            className="selected"
+            className="_7M"
           >
             B3
+            <div>
+              7M
+            </div>
           </li>
           <li
             className=""
           >
             C4
+            <div />
           </li>
           <li
             className=""
           >
             Db4
+            <div />
           </li>
           <li
             className=""
           >
             D4
+            <div />
           </li>
           <li
             className=""
           >
             D#4
+            <div />
           </li>
           <li
             className=""
           >
             E4
+            <div />
           </li>
           <li
             className=""
           >
             F4
+            <div />
           </li>
           <li
             className=""
           >
             Gb4
+            <div />
           </li>
           <li
             className=""
           >
             G4
+            <div />
           </li>
           <li
             className=""
           >
             Ab4
+            <div />
           </li>
           <li
             className=""
           >
             A4
+            <div />
           </li>
         </ol>
       </li>
@@ -182,61 +208,79 @@ Array [
             className=""
           >
             D#3
+            <div />
           </li>
           <li
-            className="selected"
+            className="_3M"
           >
             E3
+            <div>
+              3M
+            </div>
           </li>
           <li
             className=""
           >
             F3
+            <div />
           </li>
           <li
             className=""
           >
             Gb3
+            <div />
           </li>
           <li
-            className="selected"
+            className="_5P"
           >
             G3
+            <div>
+              5P
+            </div>
           </li>
           <li
             className=""
           >
             G#3
+            <div />
           </li>
           <li
             className=""
           >
             A3
+            <div />
           </li>
           <li
             className=""
           >
             A#3
+            <div />
           </li>
           <li
-            className="selected"
+            className="_7M"
           >
             B3
+            <div>
+              7M
+            </div>
           </li>
           <li
             className=""
           >
             C4
+            <div />
           </li>
           <li
             className=""
           >
             Db4
+            <div />
           </li>
           <li
             className=""
           >
             D4
+            <div />
           </li>
         </ol>
       </li>
@@ -246,61 +290,79 @@ Array [
             className=""
           >
             G#2
+            <div />
           </li>
           <li
             className=""
           >
             A2
+            <div />
           </li>
           <li
             className=""
           >
             A#2
+            <div />
           </li>
           <li
             className=""
           >
             B2
+            <div />
           </li>
           <li
-            className="selected"
+            className="_1P"
           >
             C3
+            <div>
+              1P
+            </div>
           </li>
           <li
             className=""
           >
             C#3
+            <div />
           </li>
           <li
             className=""
           >
             D3
+            <div />
           </li>
           <li
             className=""
           >
             D#3
+            <div />
           </li>
           <li
-            className="selected"
+            className="_3M"
           >
             E3
+            <div>
+              3M
+            </div>
           </li>
           <li
             className=""
           >
             F3
+            <div />
           </li>
           <li
             className=""
           >
             Gb3
+            <div />
           </li>
           <li
-            className="selected"
+            className="_5P"
           >
             G3
+            <div>
+              5P
+            </div>
           </li>
         </ol>
       </li>
@@ -310,61 +372,75 @@ Array [
             className=""
           >
             C#2
+            <div />
           </li>
           <li
             className=""
           >
             D2
+            <div />
           </li>
           <li
             className=""
           >
             D#2
+            <div />
           </li>
           <li
             className=""
           >
             E2
+            <div />
           </li>
           <li
             className=""
           >
             F2
+            <div />
           </li>
           <li
             className=""
           >
             F#2
+            <div />
           </li>
           <li
             className=""
           >
             G2
+            <div />
           </li>
           <li
             className=""
           >
             G#2
+            <div />
           </li>
           <li
             className=""
           >
             A2
+            <div />
           </li>
           <li
             className=""
           >
             A#2
+            <div />
           </li>
           <li
             className=""
           >
             B2
+            <div />
           </li>
           <li
-            className="selected"
+            className="_1P"
           >
             C3
+            <div>
+              1P
+            </div>
           </li>
         </ol>
       </li>
@@ -374,61 +450,73 @@ Array [
             className=""
           >
             F#1
+            <div />
           </li>
           <li
             className=""
           >
             G1
+            <div />
           </li>
           <li
             className=""
           >
             G#1
+            <div />
           </li>
           <li
             className=""
           >
             A1
+            <div />
           </li>
           <li
             className=""
           >
             A#1
+            <div />
           </li>
           <li
             className=""
           >
             B1
+            <div />
           </li>
           <li
             className=""
           >
             C2
+            <div />
           </li>
           <li
             className=""
           >
             C#2
+            <div />
           </li>
           <li
             className=""
           >
             D2
+            <div />
           </li>
           <li
             className=""
           >
             D#2
+            <div />
           </li>
           <li
             className=""
           >
             E2
+            <div />
           </li>
           <li
             className=""
           >
             F2
+            <div />
           </li>
         </ol>
       </li>
@@ -531,82 +619,190 @@ exports[`renders correctly 4`] = `
     </form>,
     <main>
       <ol>
-@@ -130,11 +133,11 @@
+@@ -128,15 +131,15 @@
+            >
+              A#3
+              <div />
+            </li>
+            <li
+-             className=\\"_7M\\"
++             className=\\"_3M\\"
+            >
+              B3
+              <div>
+-               7M
++               3M
+              </div>
+            </li>
+            <li
               className=\\"\\"
             >
+@@ -148,14 +151,16 @@
+            >
               Db4
+              <div />
             </li>
             <li
 -             className=\\"\\"
-+             className=\\"selected\\"
++             className=\\"_5P\\"
             >
               D4
+-             <div />
++             <div>
++               5P
++             </div>
             </li>
             <li
-              className=\\"\\"
-@@ -179,11 +182,11 @@
               className=\\"\\"
             >
+              D#4
+@@ -206,16 +211,14 @@
+            >
               D#3
+              <div />
             </li>
             <li
--             className=\\"selected\\"
+-             className=\\"_3M\\"
 +             className=\\"\\"
             >
               E3
+-             <div>
+-               3M
+-             </div>
++             <div />
             </li>
             <li
               className=\\"\\"
-@@ -229,11 +232,11 @@
+            >
+              F3
+@@ -226,15 +229,15 @@
+            >
+              Gb3
+              <div />
+            </li>
+            <li
+-             className=\\"_5P\\"
++             className=\\"_1P\\"
+            >
+              G3
+              <div>
+-               5P
++               1P
+              </div>
+            </li>
+            <li
               className=\\"\\"
             >
+@@ -252,15 +255,15 @@
+            >
+              A#3
+              <div />
+            </li>
+            <li
+-             className=\\"_7M\\"
++             className=\\"_3M\\"
+            >
+              B3
+              <div>
+-               7M
++               3M
+              </div>
+            </li>
+            <li
+              className=\\"\\"
+            >
+@@ -272,14 +275,16 @@
+            >
               Db4
+              <div />
             </li>
             <li
 -             className=\\"\\"
-+             className=\\"selected\\"
++             className=\\"_5P\\"
             >
               D4
+-             <div />
++             <div>
++               5P
++             </div>
             </li>
           </ol>
         </li>
-@@ -258,11 +261,11 @@
-              className=\\"\\"
+        <li>
+          <ol>
+@@ -306,16 +311,14 @@
             >
               B2
+              <div />
             </li>
             <li
--             className=\\"selected\\"
+-             className=\\"_1P\\"
 +             className=\\"\\"
             >
               C3
+-             <div>
+-               1P
+-             </div>
++             <div />
             </li>
             <li
-              className=\\"\\"
-@@ -278,11 +281,11 @@
               className=\\"\\"
             >
+              C#3
+@@ -332,16 +335,14 @@
+            >
               D#3
+              <div />
             </li>
             <li
--             className=\\"selected\\"
+-             className=\\"_3M\\"
 +             className=\\"\\"
             >
               E3
+-             <div>
+-               3M
+-             </div>
++             <div />
             </li>
             <li
-              className=\\"\\"
-@@ -357,11 +360,11 @@
               className=\\"\\"
             >
-              B2
+              F3
+@@ -352,15 +353,15 @@
+            >
+              Gb3
+              <div />
             </li>
             <li
--             className=\\"selected\\"
+-             className=\\"_5P\\"
++             className=\\"_1P\\"
+            >
+              G3
+              <div>
+-               5P
++               1P
+              </div>
+            </li>
+          </ol>
+        </li>
+        <li>
+@@ -430,16 +431,14 @@
+            >
+              B2
+              <div />
+            </li>
+            <li
+-             className=\\"_1P\\"
 +             className=\\"\\"
             >
               C3
+-             <div>
+-               1P
+-             </div>
++             <div />
             </li>
           </ol>
-        </li>"
+        </li>
+        <li>
+          <ol>"
 `;

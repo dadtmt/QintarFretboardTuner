@@ -8,22 +8,22 @@ import './Fretboard.css'
 function TonalInput({
   initialValue,
   label,
-  getter,
-  setter,
+  getTonal,
+  setTonal,
   tonalType,
-  validate
+  validTonal
 }) {
-  const [tonalInputError, setTonalInputError] = useState(false)
-  const [tonalValue, setTonalValue] = useState(initialValue)
+  const [tonalError, setTonalError] = useState(false)
+  const [inputValue, setInputValue] = useState(initialValue)
   const handleValueChange = value => {
-    const wantedTonalValue = getter(value)
-    if (validate(wantedTonalValue)) {
-      setTonalInputError(false)
-      setter(wantedTonalValue)
+    const wantedTonalValue = getTonal(value)
+    if (validTonal(wantedTonalValue)) {
+      setTonalError(false)
+      setTonal(wantedTonalValue)
     } else {
-      setTonalInputError(true)
+      setTonalError(true)
     }
-    setTonalValue(value)
+    setInputValue(value)
   }
 
   return (
@@ -31,10 +31,10 @@ function TonalInput({
       {`${label} : `}
       <input
         type="text"
-        value={tonalValue}
+        value={inputValue}
         onChange={e => handleValueChange(e.target.value)}
       />
-      {tonalInputError && <span>{`not a valid ${tonalType}`}</span>}
+      {tonalError && <span>{`not a valid ${tonalType}`}</span>}
     </label>
   )
 }
@@ -54,18 +54,18 @@ function Fretboard() {
         <TonalInput
           initialValue={initialDeepestNote}
           label="Deepest note"
-          getter={simplify}
-          setter={noteValue => setFretboard(generateFretboard(noteValue))}
+          getTonal={simplify}
+          setTonal={noteValue => setFretboard(generateFretboard(noteValue))}
           tonalType="note"
-          validate={noteValue => noteValue !== ''}
+          validTonal={noteValue => noteValue !== ''}
         />
         <TonalInput
           initialValue={initialChord}
           label="Selected Chord"
-          getter={chord}
-          setter={chordValue => setSelectedChord(chordValue.name)}
+          getTonal={chord}
+          setTonal={chordValue => setSelectedChord(chordValue.name)}
           tonalType="chord"
-          validate={chordValue => !chordValue.empty}
+          validTonal={chordValue => !chordValue.empty}
         />
       </form>
       <main>

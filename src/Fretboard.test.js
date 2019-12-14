@@ -11,13 +11,31 @@ it('renders correctly', () => {
   const tree = component.toJSON()
   expect(tree).toMatchSnapshot()
 
-  const wrongEventValue = { target: { value: 'xVfGu' } }
+  const wrongNoteEventValue = { target: { value: 'xVfGu' } }
   act(() => {
-    component.root.findAllByType('input')[0].props.onChange(wrongEventValue)
+    component.root.findAllByType('input')[0].props.onChange(wrongNoteEventValue)
   })
 
-  const treeUpdate = component.toJSON()
-  expect(tree).toMatchDiffSnapshot(treeUpdate)
+  const wrongNoteEventUpdate = component.toJSON()
+  expect(tree).toMatchDiffSnapshot(wrongNoteEventUpdate)
+
+  const wrongChordEventValue = { target: { value: 'xVfGu' } }
+  act(() => {
+    component.root
+      .findAllByType('input')[1]
+      .props.onChange(wrongChordEventValue)
+  })
+
+  const wrongChordEventUpdate = component.toJSON()
+  expect(tree).toMatchDiffSnapshot(wrongChordEventUpdate)
+
+  const goodChordEventValue = { target: { value: 'G3' } }
+  act(() => {
+    component.root.findAllByType('input')[1].props.onChange(goodChordEventValue)
+  })
+
+  const goodChordEventUpdate = component.toJSON()
+  expect(tree).toMatchDiffSnapshot(goodChordEventUpdate)
 })
 
 it('renders without crashing', () => {

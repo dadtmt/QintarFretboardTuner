@@ -6,13 +6,23 @@ Array [
     action=""
   >
     <label
-      htmlFor="lowest-note"
+      htmlFor="Deepest note"
     >
-      Deepest note:
+      Deepest note : 
       <input
         onChange={[Function]}
         type="text"
         value="F1"
+      />
+    </label>
+    <label
+      htmlFor="Selected Chord"
+    >
+      Selected Chord : 
+      <input
+        onChange={[Function]}
+        type="text"
+        value="C3maj7"
       />
     </label>
   </form>,
@@ -298,7 +308,7 @@ exports[`renders correctly 2`] = `
 
 @@ -7,12 +7,15 @@
       >
-        Deepest note:
+        Deepest note : 
         <input
           onChange={[Function onChange]}
           type=\\"text\\"
@@ -309,8 +319,152 @@ exports[`renders correctly 2`] = `
 +         not a valid note
 +       </span>
       </label>
+      <label
+        htmlFor=\\"Selected Chord\\"
+      >
+        Selected Chord : "
+`;
+
+exports[`renders correctly 3`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -7,22 +7,28 @@
+      >
+        Deepest note : 
+        <input
+          onChange={[Function onChange]}
+          type=\\"text\\"
+-         value=\\"F1\\"
++         value=\\"xVfGu\\"
+        />
++       <span>
++         not a valid note
++       </span>
+      </label>
+      <label
+        htmlFor=\\"Selected Chord\\"
+      >
+        Selected Chord : 
+        <input
+          onChange={[Function onChange]}
+          type=\\"text\\"
+-         value=\\"C3maj7\\"
++         value=\\"xVfGu\\"
+        />
++       <span>
++         not a valid chord
++       </span>
+      </label>
     </form>,
     <main>
       <ol>
         <li>"
+`;
+
+exports[`renders correctly 4`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -7,21 +7,24 @@
+      >
+        Deepest note : 
+        <input
+          onChange={[Function onChange]}
+          type=\\"text\\"
+-         value=\\"F1\\"
++         value=\\"xVfGu\\"
+        />
++       <span>
++         not a valid note
++       </span>
+      </label>
+      <label
+        htmlFor=\\"Selected Chord\\"
+      >
+        Selected Chord : 
+        <input
+          onChange={[Function onChange]}
+          type=\\"text\\"
+-         value=\\"C3maj7\\"
++         value=\\"G3\\"
+        />
+      </label>
+    </form>,
+    <main>
+      <ol>
+@@ -100,10 +103,11 @@
+            <li>
+              Db4
+            </li>
+            <li>
+              D4
++             Selected
+            </li>
+            <li>
+              D#4
+            </li>
+            <li>
+@@ -131,11 +135,10 @@
+            <li>
+              D#3
+            </li>
+            <li>
+              E3
+-             Selected
+            </li>
+            <li>
+              F3
+            </li>
+            <li>
+@@ -164,10 +167,11 @@
+            <li>
+              Db4
+            </li>
+            <li>
+              D4
++             Selected
+            </li>
+          </ol>
+        </li>
+        <li>
+          <ol>
+@@ -183,11 +187,10 @@
+            <li>
+              B2
+            </li>
+            <li>
+              C3
+-             Selected
+            </li>
+            <li>
+              C#3
+            </li>
+            <li>
+@@ -196,11 +199,10 @@
+            <li>
+              D#3
+            </li>
+            <li>
+              E3
+-             Selected
+            </li>
+            <li>
+              F3
+            </li>
+            <li>
+@@ -247,11 +249,10 @@
+            <li>
+              B2
+            </li>
+            <li>
+              C3
+-             Selected
+            </li>
+          </ol>
+        </li>
+        <li>
+          <ol>"
 `;

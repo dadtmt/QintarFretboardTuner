@@ -4,12 +4,19 @@ import { chord } from '@tonaljs/chord'
 import { generateFretboard } from './generators'
 import './Fretboard.css'
 
-function TonalInput({ getter, setter, tonalType }) {
+function TonalInput({
+  initialValue,
+  label,
+  getter,
+  setter,
+  tonalType,
+  validate
+}) {
   const [tonalInputError, setTonalInputError] = useState(false)
-  const [tonalValue, setTonalValue] = useState('F1')
+  const [tonalValue, setTonalValue] = useState(initialValue)
   const handleValueChange = value => {
     const wantedTonalValue = getter(value)
-    if (wantedTonalValue) {
+    if (validate(wantedTonalValue)) {
       setTonalInputError(false)
       setter(wantedTonalValue)
     } else {
@@ -19,8 +26,8 @@ function TonalInput({ getter, setter, tonalType }) {
   }
 
   return (
-    <label htmlFor="lowest-note">
-      Deepest note:
+    <label htmlFor={label}>
+      {`${label} : `}
       <input
         type="text"
         value={tonalValue}
@@ -32,17 +39,32 @@ function TonalInput({ getter, setter, tonalType }) {
 }
 
 function Fretboard() {
-  const [chordInput, setChordInput] = useState('Cmaj7')
-  const [selectedChord, setSelectedChord] = useState(chord('C3maj7'))
-  const [fretboard, setFretboard] = useState(generateFretboard('F1'))
+  const initialDeepestNote = 'F1'
+  const initialChord = 'C3maj7'
+
+  const [fretboard, setFretboard] = useState(
+    generateFretboard(initialDeepestNote)
+  )
+  const [selectedChord, setSelectedChord] = useState(initialChord)
 
   return (
     <Fragment>
       <form action="">
         <TonalInput
+          initialValue={initialDeepestNote}
+          label="Deepest note"
           getter={simplify}
           setter={noteValue => setFretboard(generateFretboard(noteValue))}
           tonalType="note"
+          validate={noteValue => noteValue !== ''}
+        />
+        <TonalInput
+          initialValue={initialChord}
+          label="Selected Chord"
+          getter={chord}
+          setter={chordValue => setSelectedChord(chordValue.name)}
+          tonalType="chord"
+          validate={chordValue => !chordValue.empty}
         />
       </form>
       <main>
@@ -58,7 +80,7 @@ function Fretboard() {
                 {guitarString.frets.map(fret => (
                   <li key={fret}>
                     {fret}
-                    {selectedChord.notes.includes(fret) && 'Selected'}
+                    {chord(selectedChord).notes.includes(fret) && 'Selected'}
                   </li>
                 ))}
               </ol>

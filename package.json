@@ -55,5 +55,5 @@
     "react-test-renderer": "^16.12.0",
     "snapshot-diff": "^0.6.1"
   },
-  "homepage": "https://dadtmt.github.io/QintarFretboardTuner"
+  "homepage": "https://dadtmt.github.io/QuintarFretboardTuner"
 }

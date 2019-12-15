@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab158ffd3b6246aaf6a646c264d12adf",
+    "revision": "a596b96f4636173d1d2ae178875c20ab",
     "url": "/QintarFretboardTuner/index.html"
   },
   {

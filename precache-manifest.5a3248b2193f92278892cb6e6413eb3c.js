@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "adf1242ce57991ad334dab0ba6470ed5",
+    "revision": "ab158ffd3b6246aaf6a646c264d12adf",
     "url": "/QintarFretboardTuner/index.html"
   },
   {
-    "revision": "001c84ab162d6695426d",
-    "url": "/QintarFretboardTuner/static/css/main.1700fc37.chunk.css"
+    "revision": "6a952cd363ac88b2b56c",
+    "url": "/QintarFretboardTuner/static/css/main.b186235e.chunk.css"
   },
   {
     "revision": "27971cb7a8ddbe1818d0",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/QintarFretboardTuner/static/js/2.fd7bf3f8.chunk.js.LICENSE"
   },
   {
-    "revision": "001c84ab162d6695426d",
+    "revision": "6a952cd363ac88b2b56c",
     "url": "/QintarFretboardTuner/static/js/main.7ae150f4.chunk.js"
   },
   {

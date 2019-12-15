@@ -71,14 +71,9 @@ function Fretboard() {
       <main>
         <ol>
           {fretboard.map(guitarString => (
-            <li key={guitarString.flatNote}>{guitarString.flatNote}</li>
-          ))}
-        </ol>
-        <ol>
-          {fretboard.map(guitarString => (
-            <li key={guitarString.flatNote}>
+            <li key={guitarString[0]}>
               <ol>
-                {guitarString.frets.map(fret => (
+                {guitarString.map(fret => (
                   <li
                     key={fret}
                     className={classNames(

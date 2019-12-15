@@ -29,27 +29,13 @@ Array [
   <main>
     <ol>
       <li>
-        E4
-      </li>
-      <li>
-        A3
-      </li>
-      <li>
-        D3
-      </li>
-      <li>
-        G2
-      </li>
-      <li>
-        C2
-      </li>
-      <li>
-        F1
-      </li>
-    </ol>
-    <ol>
-      <li>
         <ol>
+          <li
+            className=""
+          >
+            E4
+            <div />
+          </li>
           <li
             className=""
           >
@@ -129,6 +115,12 @@ Array [
           <li
             className=""
           >
+            A3
+            <div />
+          </li>
+          <li
+            className=""
+          >
             A#3
             <div />
           </li>
@@ -204,6 +196,12 @@ Array [
       </li>
       <li>
         <ol>
+          <li
+            className=""
+          >
+            D3
+            <div />
+          </li>
           <li
             className=""
           >
@@ -289,6 +287,12 @@ Array [
           <li
             className=""
           >
+            G2
+            <div />
+          </li>
+          <li
+            className=""
+          >
             G#2
             <div />
           </li>
@@ -371,6 +375,12 @@ Array [
           <li
             className=""
           >
+            C2
+            <div />
+          </li>
+          <li
+            className=""
+          >
             C#2
             <div />
           </li>
@@ -446,6 +456,12 @@ Array [
       </li>
       <li>
         <ol>
+          <li
+            className=""
+          >
+            F1
+            <div />
+          </li>
           <li
             className=""
           >
@@ -619,7 +635,7 @@ exports[`renders correctly 4`] = `
     </form>,
     <main>
       <ol>
-@@ -128,15 +131,15 @@
+@@ -120,15 +123,15 @@
             >
               A#3
               <div />
@@ -637,7 +653,7 @@ exports[`renders correctly 4`] = `
             <li
               className=\\"\\"
             >
-@@ -148,14 +151,16 @@
+@@ -140,14 +143,16 @@
             >
               Db4
               <div />
@@ -656,7 +672,7 @@ exports[`renders correctly 4`] = `
               className=\\"\\"
             >
               D#4
-@@ -206,16 +211,14 @@
+@@ -204,16 +209,14 @@
             >
               D#3
               <div />
@@ -675,7 +691,7 @@ exports[`renders correctly 4`] = `
               className=\\"\\"
             >
               F3
-@@ -226,15 +229,15 @@
+@@ -224,15 +227,15 @@
             >
               Gb3
               <div />
@@ -693,7 +709,7 @@ exports[`renders correctly 4`] = `
             <li
               className=\\"\\"
             >
-@@ -252,15 +255,15 @@
+@@ -250,15 +253,15 @@
             >
               A#3
               <div />
@@ -711,7 +727,7 @@ exports[`renders correctly 4`] = `
             <li
               className=\\"\\"
             >
-@@ -272,14 +275,16 @@
+@@ -270,14 +273,16 @@
             >
               Db4
               <div />
@@ -730,7 +746,7 @@ exports[`renders correctly 4`] = `
         </li>
         <li>
           <ol>
-@@ -306,16 +311,14 @@
+@@ -310,16 +315,14 @@
             >
               B2
               <div />
@@ -749,7 +765,7 @@ exports[`renders correctly 4`] = `
               className=\\"\\"
             >
               C#3
-@@ -332,16 +335,14 @@
+@@ -336,16 +339,14 @@
             >
               D#3
               <div />
@@ -768,7 +784,7 @@ exports[`renders correctly 4`] = `
               className=\\"\\"
             >
               F3
-@@ -352,15 +353,15 @@
+@@ -356,15 +357,15 @@
             >
               Gb3
               <div />
@@ -786,7 +802,7 @@ exports[`renders correctly 4`] = `
           </ol>
         </li>
         <li>
-@@ -430,16 +431,14 @@
+@@ -440,16 +441,14 @@
             >
               B2
               <div />

@@ -3,6 +3,7 @@ import { enharmonic, transposeFrom } from '@tonaljs/note'
 import { transpose } from '@tonaljs/tonal'
 
 const fretIntervals = [
+  'P1',
   'm2',
   'M2',
   'm3',
@@ -37,9 +38,6 @@ export const generateFretboard = R.memoizeWith(
   R.identity,
   R.pipe(
     generateStringsFromDeepestNote,
-    R.map(flatNote => ({
-      flatNote,
-      frets: generateString(flatNote)
-    }))
+    R.map(flatNote => generateString(flatNote))
   )
 )

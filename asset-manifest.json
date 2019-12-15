@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/QintarFretboardTuner/static/css/main.b186235e.chunk.css",
-    "main.js": "/QintarFretboardTuner/static/js/main.7ae150f4.chunk.js",
-    "main.js.map": "/QintarFretboardTuner/static/js/main.7ae150f4.chunk.js.map",
-    "runtime-main.js": "/QintarFretboardTuner/static/js/runtime-main.6fb532a9.js",
-    "runtime-main.js.map": "/QintarFretboardTuner/static/js/runtime-main.6fb532a9.js.map",
-    "static/js/2.fd7bf3f8.chunk.js": "/QintarFretboardTuner/static/js/2.fd7bf3f8.chunk.js",
-    "static/js/2.fd7bf3f8.chunk.js.map": "/QintarFretboardTuner/static/js/2.fd7bf3f8.chunk.js.map",
-    "index.html": "/QintarFretboardTuner/index.html",
-    "precache-manifest.b171d4c28eb1ff06a8c556332019c2c2.js": "/QintarFretboardTuner/precache-manifest.b171d4c28eb1ff06a8c556332019c2c2.js",
-    "service-worker.js": "/QintarFretboardTuner/service-worker.js",
-    "static/css/main.b186235e.chunk.css.map": "/QintarFretboardTuner/static/css/main.b186235e.chunk.css.map",
-    "static/js/2.fd7bf3f8.chunk.js.LICENSE": "/QintarFretboardTuner/static/js/2.fd7bf3f8.chunk.js.LICENSE"
+    "main.css": "/QuintarFretboardTuner/static/css/main.b186235e.chunk.css",
+    "main.js": "/QuintarFretboardTuner/static/js/main.de91eb34.chunk.js",
+    "main.js.map": "/QuintarFretboardTuner/static/js/main.de91eb34.chunk.js.map",
+    "runtime-main.js": "/QuintarFretboardTuner/static/js/runtime-main.cd6d03f9.js",
+    "runtime-main.js.map": "/QuintarFretboardTuner/static/js/runtime-main.cd6d03f9.js.map",
+    "static/js/2.fd7bf3f8.chunk.js": "/QuintarFretboardTuner/static/js/2.fd7bf3f8.chunk.js",
+    "static/js/2.fd7bf3f8.chunk.js.map": "/QuintarFretboardTuner/static/js/2.fd7bf3f8.chunk.js.map",
+    "index.html": "/QuintarFretboardTuner/index.html",
+    "precache-manifest.d3439bf058db9c41187e2b808eba8654.js": "/QuintarFretboardTuner/precache-manifest.d3439bf058db9c41187e2b808eba8654.js",
+    "service-worker.js": "/QuintarFretboardTuner/service-worker.js",
+    "static/css/main.b186235e.chunk.css.map": "/QuintarFretboardTuner/static/css/main.b186235e.chunk.css.map",
+    "static/js/2.fd7bf3f8.chunk.js.LICENSE": "/QuintarFretboardTuner/static/js/2.fd7bf3f8.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.6fb532a9.js",
+    "static/js/runtime-main.cd6d03f9.js",
     "static/js/2.fd7bf3f8.chunk.js",
     "static/css/main.b186235e.chunk.css",
-    "static/js/main.7ae150f4.chunk.js"
+    "static/js/main.de91eb34.chunk.js"
   ]
 }

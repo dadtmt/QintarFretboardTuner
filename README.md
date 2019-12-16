@@ -1,6 +1,6 @@
-# Qintar
+# Quintar
 
-[Here](https://dadtmt.github.io/QintarFretboardTuner/)
+[Here](https://dadtmt.github.io/QuintarFretboardTuner/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

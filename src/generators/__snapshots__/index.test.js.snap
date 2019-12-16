@@ -65,94 +65,328 @@ Array [
 exports[`generates a Quintar fretboard 1`] = `
 Array [
   Array [
-    "E4",
-    "F4",
-    "Gb4",
-    "G4",
-    "Ab4",
-    "A4",
-    "A#4",
-    "B4",
-    "C5",
-    "Db5",
-    "D5",
-    "Eb5",
-    "E5",
+    Object {
+      "fret": "E4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "F4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "Gb4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "G4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "Ab4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "A4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "A#4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "B4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "C5",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "Db5",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "D5",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "Eb5",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "E5",
+      "selectedChordInterval": "",
+    },
   ],
   Array [
-    "A3",
-    "A#3",
-    "B3",
-    "C4",
-    "Db4",
-    "D4",
-    "D#4",
-    "E4",
-    "F4",
-    "Gb4",
-    "G4",
-    "Ab4",
-    "A4",
+    Object {
+      "fret": "A3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "A#3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "B3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "C4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "Db4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "D4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "D#4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "E4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "F4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "Gb4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "G4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "Ab4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "A4",
+      "selectedChordInterval": "",
+    },
   ],
   Array [
-    "D3",
-    "D#3",
-    "E3",
-    "F3",
-    "Gb3",
-    "G3",
-    "G#3",
-    "A3",
-    "A#3",
-    "B3",
-    "C4",
-    "Db4",
-    "D4",
+    Object {
+      "fret": "D3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "D#3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "E3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "F3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "Gb3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "G3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "G#3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "A3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "A#3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "B3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "C4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "Db4",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "D4",
+      "selectedChordInterval": "",
+    },
   ],
   Array [
-    "G2",
-    "G#2",
-    "A2",
-    "A#2",
-    "B2",
-    "C3",
-    "C#3",
-    "D3",
-    "D#3",
-    "E3",
-    "F3",
-    "Gb3",
-    "G3",
+    Object {
+      "fret": "G2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "G#2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "A2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "A#2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "B2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "C3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "C#3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "D3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "D#3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "E3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "F3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "Gb3",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "G3",
+      "selectedChordInterval": "",
+    },
   ],
   Array [
-    "C2",
-    "C#2",
-    "D2",
-    "D#2",
-    "E2",
-    "F2",
-    "F#2",
-    "G2",
-    "G#2",
-    "A2",
-    "A#2",
-    "B2",
-    "C3",
+    Object {
+      "fret": "C2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "C#2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "D2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "D#2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "E2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "F2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "F#2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "G2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "G#2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "A2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "A#2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "B2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "C3",
+      "selectedChordInterval": "",
+    },
   ],
   Array [
-    "F1",
-    "F#1",
-    "G1",
-    "G#1",
-    "A1",
-    "A#1",
-    "B1",
-    "C2",
-    "C#2",
-    "D2",
-    "D#2",
-    "E2",
-    "F2",
+    Object {
+      "fret": "F1",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "F#1",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "G1",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "G#1",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "A1",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "A#1",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "B1",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "C2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "C#2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "D2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "D#2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "E2",
+      "selectedChordInterval": "",
+    },
+    Object {
+      "fret": "F2",
+      "selectedChordInterval": "",
+    },
   ],
 ]
 `;

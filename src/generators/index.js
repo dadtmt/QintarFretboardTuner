@@ -38,6 +38,14 @@ export const generateFretboard = R.memoizeWith(
   R.identity,
   R.pipe(
     generateStringsFromDeepestNote,
-    R.map(flatNote => generateString(flatNote))
+    R.map(
+      R.pipe(
+        generateString,
+        R.map(fret => ({
+          fret,
+          selectedChordInterval: ''
+        }))
+      )
+    )
   )
 )

@@ -41,7 +41,7 @@ function TonalInput({
 
 function Fretboard() {
   const initialDeepestNote = 'F1'
-  const initialChord = 'C3maj7'
+  const initialChord = ''
 
   const [fretboard, setFretboard] = useState(
     generateFretboard(initialDeepestNote)

@@ -22,7 +22,7 @@ Array [
       <input
         onChange={[Function]}
         type="text"
-        value="C3maj7"
+        value=""
       />
     </label>
   </form>,
@@ -125,12 +125,10 @@ Array [
             <div />
           </li>
           <li
-            className="_7M"
+            className=""
           >
             B3
-            <div>
-              7M
-            </div>
+            <div />
           </li>
           <li
             className=""
@@ -209,12 +207,10 @@ Array [
             <div />
           </li>
           <li
-            className="_3M"
+            className=""
           >
             E3
-            <div>
-              3M
-            </div>
+            <div />
           </li>
           <li
             className=""
@@ -229,12 +225,10 @@ Array [
             <div />
           </li>
           <li
-            className="_5P"
+            className=""
           >
             G3
-            <div>
-              5P
-            </div>
+            <div />
           </li>
           <li
             className=""
@@ -255,12 +249,10 @@ Array [
             <div />
           </li>
           <li
-            className="_7M"
+            className=""
           >
             B3
-            <div>
-              7M
-            </div>
+            <div />
           </li>
           <li
             className=""
@@ -315,12 +307,10 @@ Array [
             <div />
           </li>
           <li
-            className="_1P"
+            className=""
           >
             C3
-            <div>
-              1P
-            </div>
+            <div />
           </li>
           <li
             className=""
@@ -341,12 +331,10 @@ Array [
             <div />
           </li>
           <li
-            className="_3M"
+            className=""
           >
             E3
-            <div>
-              3M
-            </div>
+            <div />
           </li>
           <li
             className=""
@@ -361,12 +349,10 @@ Array [
             <div />
           </li>
           <li
-            className="_5P"
+            className=""
           >
             G3
-            <div>
-              5P
-            </div>
+            <div />
           </li>
         </ol>
       </li>
@@ -445,12 +431,10 @@ Array [
             <div />
           </li>
           <li
-            className="_1P"
+            className=""
           >
             C3
-            <div>
-              1P
-            </div>
+            <div />
           </li>
         </ol>
       </li>
@@ -590,7 +574,7 @@ exports[`renders correctly 3`] = `
         <input
           onChange={[Function onChange]}
           type=\\"text\\"
--         value=\\"C3maj7\\"
+-         value=\\"\\"
 +         value=\\"xVfGu\\"
         />
 +       <span>
@@ -628,32 +612,33 @@ exports[`renders correctly 4`] = `
         <input
           onChange={[Function onChange]}
           type=\\"text\\"
--         value=\\"C3maj7\\"
+-         value=\\"\\"
 +         value=\\"G3\\"
         />
       </label>
     </form>,
     <main>
       <ol>
-@@ -120,15 +123,15 @@
+@@ -120,14 +123,16 @@
             >
               A#3
               <div />
             </li>
             <li
--             className=\\"_7M\\"
+-             className=\\"\\"
 +             className=\\"_3M\\"
             >
               B3
-              <div>
--               7M
+-             <div />
++             <div>
 +               3M
-              </div>
++             </div>
             </li>
             <li
               className=\\"\\"
             >
-@@ -140,14 +143,16 @@
+              C4
+@@ -138,14 +143,16 @@
             >
               Db4
               <div />
@@ -672,62 +657,45 @@ exports[`renders correctly 4`] = `
               className=\\"\\"
             >
               D#4
-@@ -204,16 +209,14 @@
-            >
-              D#3
-              <div />
-            </li>
-            <li
--             className=\\"_3M\\"
-+             className=\\"\\"
-            >
-              E3
--             <div>
--               3M
--             </div>
-+             <div />
-            </li>
-            <li
-              className=\\"\\"
-            >
-              F3
-@@ -224,15 +227,15 @@
+@@ -220,14 +227,16 @@
             >
               Gb3
               <div />
             </li>
             <li
--             className=\\"_5P\\"
+-             className=\\"\\"
 +             className=\\"_1P\\"
             >
               G3
-              <div>
--               5P
+-             <div />
++             <div>
 +               1P
-              </div>
++             </div>
             </li>
             <li
               className=\\"\\"
             >
-@@ -250,15 +253,15 @@
+              G#3
+@@ -244,14 +253,16 @@
             >
               A#3
               <div />
             </li>
             <li
--             className=\\"_7M\\"
+-             className=\\"\\"
 +             className=\\"_3M\\"
             >
               B3
-              <div>
--               7M
+-             <div />
++             <div>
 +               3M
-              </div>
++             </div>
             </li>
             <li
               className=\\"\\"
             >
-@@ -270,14 +273,16 @@
+              C4
+@@ -262,14 +273,16 @@
             >
               Db4
               <div />
@@ -746,76 +714,20 @@ exports[`renders correctly 4`] = `
         </li>
         <li>
           <ol>
-@@ -310,16 +315,14 @@
-            >
-              B2
-              <div />
-            </li>
-            <li
--             className=\\"_1P\\"
-+             className=\\"\\"
-            >
-              C3
--             <div>
--               1P
--             </div>
-+             <div />
-            </li>
-            <li
-              className=\\"\\"
-            >
-              C#3
-@@ -336,16 +339,14 @@
-            >
-              D#3
-              <div />
-            </li>
-            <li
--             className=\\"_3M\\"
-+             className=\\"\\"
-            >
-              E3
--             <div>
--               3M
--             </div>
-+             <div />
-            </li>
-            <li
-              className=\\"\\"
-            >
-              F3
-@@ -356,15 +357,15 @@
+@@ -344,14 +357,16 @@
             >
               Gb3
               <div />
             </li>
             <li
--             className=\\"_5P\\"
+-             className=\\"\\"
 +             className=\\"_1P\\"
             >
               G3
-              <div>
--               5P
+-             <div />
++             <div>
 +               1P
-              </div>
-            </li>
-          </ol>
-        </li>
-        <li>
-@@ -440,16 +441,14 @@
-            >
-              B2
-              <div />
-            </li>
-            <li
--             className=\\"_1P\\"
-+             className=\\"\\"
-            >
-              C3
--             <div>
--               1P
--             </div>
-+             <div />
++             </div>
             </li>
           </ol>
         </li>

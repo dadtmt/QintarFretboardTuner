@@ -1,11 +1,73 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`generateFretboard generates a Quintar fretboard 1`] = `
+exports[`generateString generates A3 string 1`] = `
+Array [
+  "A3",
+  "A#3",
+  "B3",
+  "C4",
+  "Db4",
+  "D4",
+  "D#4",
+  "E4",
+  "F4",
+  "Gb4",
+  "G4",
+  "Ab4",
+  "A4",
+]
+`;
+
+exports[`generateString generates E4 string 1`] = `
+Array [
+  "E4",
+  "F4",
+  "Gb4",
+  "G4",
+  "Ab4",
+  "A4",
+  "A#4",
+  "B4",
+  "C5",
+  "Db5",
+  "D5",
+  "Eb5",
+  "E5",
+]
+`;
+
+exports[`generateString generates a 10 P5 StringsFlatNote 1`] = `
+Array [
+  "G#6",
+  "C#6",
+  "F#5",
+  "B4",
+  "E4",
+  "A3",
+  "D3",
+  "G2",
+  "C2",
+  "F1",
+]
+`;
+
+exports[`generateString generates a P5 StringsFlatNote 1`] = `
+Array [
+  "E4",
+  "A3",
+  "D3",
+  "G2",
+  "C2",
+  "F1",
+]
+`;
+
+exports[`setChordIntervals sets the tonic 1`] = `
 Array [
   Array [
     Object {
       "fret": "E4",
-      "selectedChordInterval": "",
+      "selectedChordInterval": "1P",
     },
     Object {
       "fret": "F4",
@@ -326,67 +388,5 @@ Array [
       "selectedChordInterval": "",
     },
   ],
-]
-`;
-
-exports[`generateString generates A3 string 1`] = `
-Array [
-  "A3",
-  "A#3",
-  "B3",
-  "C4",
-  "Db4",
-  "D4",
-  "D#4",
-  "E4",
-  "F4",
-  "Gb4",
-  "G4",
-  "Ab4",
-  "A4",
-]
-`;
-
-exports[`generateString generates E4 string 1`] = `
-Array [
-  "E4",
-  "F4",
-  "Gb4",
-  "G4",
-  "Ab4",
-  "A4",
-  "A#4",
-  "B4",
-  "C5",
-  "Db5",
-  "D5",
-  "Eb5",
-  "E5",
-]
-`;
-
-exports[`generateString generates a 10 P5 StringsFlatNote 1`] = `
-Array [
-  "G#6",
-  "C#6",
-  "F#5",
-  "B4",
-  "E4",
-  "A3",
-  "D3",
-  "G2",
-  "C2",
-  "F1",
-]
-`;
-
-exports[`generateString generates a P5 StringsFlatNote 1`] = `
-Array [
-  "E4",
-  "A3",
-  "D3",
-  "G2",
-  "C2",
-  "F1",
 ]
 `;

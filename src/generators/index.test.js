@@ -25,8 +25,11 @@ describe('generateString', () => {
   })
 })
 
-describe('generateFretboard', () => {
-  it('generates a Quintar fretboard', () => {
-    expect(generateFretboard('F1')).toMatchSnapshot()
+describe('setChordIntervals', () => {
+  it('sets the tonic', () => {
+    const fretboard = generateFretboard('F1')
+    const tonicE4 = [0, 0]
+    const chordType = 'major'
+    expect(setChordIntervals(fretboard, tonicE4, chordType)).toMatchSnapshot()
   })
 })

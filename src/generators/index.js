@@ -49,3 +49,17 @@ export const generateFretboard = R.memoizeWith(
     )
   )
 )
+
+export const setChordIntervals = (
+  fretboard,
+  [guitarStringIndex, fretIndex],
+  chord
+) =>
+  R.pipe(
+    R.flatten,
+    R.adjust(
+      guitarStringIndex * fretIndex,
+      R.assoc('selectedChordInterval', '1P')
+    ),
+    R.splitEvery(fretboard[0].length)
+  )(fretboard)

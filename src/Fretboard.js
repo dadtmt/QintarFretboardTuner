@@ -75,9 +75,9 @@ function Fretboard() {
             (guitarString, guitarStringIndex) => (
               <li key={guitarStringIndex}>
                 <ol>
-                  {guitarString.map(({ fret }) => (
+                  {guitarString.map(({ fret, fretIndex }) => (
                     <li
-                      key={`${guitarStringIndex} - ${fret}`}
+                      key={`${fretIndex} - ${fret}`}
                       className={classNames(
                         chord(selectedChord).intervals[
                           chord(selectedChord).notes.indexOf(fret)
@@ -88,7 +88,8 @@ function Fretboard() {
                             ]
                           }`
                       )}>
-                      {fret}
+                      <aside>{fretIndex}</aside>
+                      <article>{fret}</article>
                       <div>
                         {
                           chord(selectedChord).intervals[

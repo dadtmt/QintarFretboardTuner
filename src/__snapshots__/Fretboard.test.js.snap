@@ -33,161 +33,144 @@ Array [
           <li
             className=""
           >
-            E4
+            <aside>
+              0
+            </aside>
+            <article>
+              E4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            F4
+            <aside>
+              1
+            </aside>
+            <article>
+              F4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            Gb4
+            <aside>
+              2
+            </aside>
+            <article>
+              Gb4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            G4
+            <aside>
+              3
+            </aside>
+            <article>
+              G4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            Ab4
+            <aside>
+              4
+            </aside>
+            <article>
+              Ab4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            A4
+            <aside>
+              5
+            </aside>
+            <article>
+              A4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            A#4
+            <aside>
+              6
+            </aside>
+            <article>
+              A#4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            B4
+            <aside>
+              7
+            </aside>
+            <article>
+              B4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            C5
+            <aside>
+              8
+            </aside>
+            <article>
+              C5
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            Db5
+            <aside>
+              9
+            </aside>
+            <article>
+              Db5
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            D5
+            <aside>
+              10
+            </aside>
+            <article>
+              D5
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            Eb5
+            <aside>
+              11
+            </aside>
+            <article>
+              Eb5
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            E5
-            <div />
-          </li>
-        </ol>
-      </li>
-      <li>
-        <ol>
-          <li
-            className=""
-          >
-            A3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            A#3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            B3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            C4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            Db4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            D4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            D#4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            E4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            F4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            Gb4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            G4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            Ab4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            A4
+            <aside>
+              12
+            </aside>
+            <article>
+              E5
+            </article>
             <div />
           </li>
         </ol>
@@ -197,161 +180,144 @@ Array [
           <li
             className=""
           >
-            D3
+            <aside>
+              13
+            </aside>
+            <article>
+              A3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            D#3
+            <aside>
+              14
+            </aside>
+            <article>
+              A#3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            E3
+            <aside>
+              15
+            </aside>
+            <article>
+              B3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            F3
+            <aside>
+              16
+            </aside>
+            <article>
+              C4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            Gb3
+            <aside>
+              17
+            </aside>
+            <article>
+              Db4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            G3
+            <aside>
+              18
+            </aside>
+            <article>
+              D4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            G#3
+            <aside>
+              19
+            </aside>
+            <article>
+              D#4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            A3
+            <aside>
+              20
+            </aside>
+            <article>
+              E4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            A#3
+            <aside>
+              21
+            </aside>
+            <article>
+              F4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            B3
+            <aside>
+              22
+            </aside>
+            <article>
+              Gb4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            C4
+            <aside>
+              23
+            </aside>
+            <article>
+              G4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            Db4
+            <aside>
+              24
+            </aside>
+            <article>
+              Ab4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            D4
-            <div />
-          </li>
-        </ol>
-      </li>
-      <li>
-        <ol>
-          <li
-            className=""
-          >
-            G2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            G#2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            A2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            A#2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            B2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            C3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            C#3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            D3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            D#3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            E3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            F3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            Gb3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            G3
+            <aside>
+              25
+            </aside>
+            <article>
+              A4
+            </article>
             <div />
           </li>
         </ol>
@@ -361,79 +327,144 @@ Array [
           <li
             className=""
           >
-            C2
+            <aside>
+              26
+            </aside>
+            <article>
+              D3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            C#2
+            <aside>
+              27
+            </aside>
+            <article>
+              D#3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            D2
+            <aside>
+              28
+            </aside>
+            <article>
+              E3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            D#2
+            <aside>
+              29
+            </aside>
+            <article>
+              F3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            E2
+            <aside>
+              30
+            </aside>
+            <article>
+              Gb3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            F2
+            <aside>
+              31
+            </aside>
+            <article>
+              G3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            F#2
+            <aside>
+              32
+            </aside>
+            <article>
+              G#3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            G2
+            <aside>
+              33
+            </aside>
+            <article>
+              A3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            G#2
+            <aside>
+              34
+            </aside>
+            <article>
+              A#3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            A2
+            <aside>
+              35
+            </aside>
+            <article>
+              B3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            A#2
+            <aside>
+              36
+            </aside>
+            <article>
+              C4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            B2
+            <aside>
+              37
+            </aside>
+            <article>
+              Db4
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            C3
+            <aside>
+              38
+            </aside>
+            <article>
+              D4
+            </article>
             <div />
           </li>
         </ol>
@@ -443,79 +474,438 @@ Array [
           <li
             className=""
           >
-            F1
+            <aside>
+              39
+            </aside>
+            <article>
+              G2
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            F#1
+            <aside>
+              40
+            </aside>
+            <article>
+              G#2
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            G1
+            <aside>
+              41
+            </aside>
+            <article>
+              A2
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            G#1
+            <aside>
+              42
+            </aside>
+            <article>
+              A#2
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            A1
+            <aside>
+              43
+            </aside>
+            <article>
+              B2
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            A#1
+            <aside>
+              44
+            </aside>
+            <article>
+              C3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            B1
+            <aside>
+              45
+            </aside>
+            <article>
+              C#3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            C2
+            <aside>
+              46
+            </aside>
+            <article>
+              D3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            C#2
+            <aside>
+              47
+            </aside>
+            <article>
+              D#3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            D2
+            <aside>
+              48
+            </aside>
+            <article>
+              E3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            D#2
+            <aside>
+              49
+            </aside>
+            <article>
+              F3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            E2
+            <aside>
+              50
+            </aside>
+            <article>
+              Gb3
+            </article>
             <div />
           </li>
           <li
             className=""
           >
-            F2
+            <aside>
+              51
+            </aside>
+            <article>
+              G3
+            </article>
+            <div />
+          </li>
+        </ol>
+      </li>
+      <li>
+        <ol>
+          <li
+            className=""
+          >
+            <aside>
+              52
+            </aside>
+            <article>
+              C2
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              53
+            </aside>
+            <article>
+              C#2
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              54
+            </aside>
+            <article>
+              D2
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              55
+            </aside>
+            <article>
+              D#2
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              56
+            </aside>
+            <article>
+              E2
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              57
+            </aside>
+            <article>
+              F2
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              58
+            </aside>
+            <article>
+              F#2
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              59
+            </aside>
+            <article>
+              G2
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              60
+            </aside>
+            <article>
+              G#2
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              61
+            </aside>
+            <article>
+              A2
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              62
+            </aside>
+            <article>
+              A#2
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              63
+            </aside>
+            <article>
+              B2
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              64
+            </aside>
+            <article>
+              C3
+            </article>
+            <div />
+          </li>
+        </ol>
+      </li>
+      <li>
+        <ol>
+          <li
+            className=""
+          >
+            <aside>
+              65
+            </aside>
+            <article>
+              F1
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              66
+            </aside>
+            <article>
+              F#1
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              67
+            </aside>
+            <article>
+              G1
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              68
+            </aside>
+            <article>
+              G#1
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              69
+            </aside>
+            <article>
+              A1
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              70
+            </aside>
+            <article>
+              A#1
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              71
+            </aside>
+            <article>
+              B1
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              72
+            </aside>
+            <article>
+              C2
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              73
+            </aside>
+            <article>
+              C#2
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              74
+            </aside>
+            <article>
+              D2
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              75
+            </aside>
+            <article>
+              D#2
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              76
+            </aside>
+            <article>
+              E2
+            </article>
+            <div />
+          </li>
+          <li
+            className=""
+          >
+            <aside>
+              77
+            </aside>
+            <article>
+              F2
+            </article>
             <div />
           </li>
         </ol>
@@ -619,16 +1009,21 @@ exports[`renders correctly 4`] = `
     </form>,
     <main>
       <ol>
-@@ -120,14 +123,16 @@
-            >
-              A#3
+@@ -195,19 +198,21 @@
+                A#3
+              </article>
               <div />
             </li>
             <li
 -             className=\\"\\"
 +             className=\\"_3M\\"
             >
-              B3
+              <aside>
+                15
+              </aside>
+              <article>
+                B3
+              </article>
 -             <div />
 +             <div>
 +               3M
@@ -637,17 +1032,22 @@ exports[`renders correctly 4`] = `
             <li
               className=\\"\\"
             >
-              C4
-@@ -138,14 +143,16 @@
-            >
-              Db4
+              <aside>
+@@ -228,19 +233,21 @@
+                Db4
+              </article>
               <div />
             </li>
             <li
 -             className=\\"\\"
 +             className=\\"_5P\\"
             >
-              D4
+              <aside>
+                18
+              </aside>
+              <article>
+                D4
+              </article>
 -             <div />
 +             <div>
 +               5P
@@ -656,17 +1056,22 @@ exports[`renders correctly 4`] = `
             <li
               className=\\"\\"
             >
-              D#4
-@@ -220,14 +227,16 @@
-            >
-              Gb3
+              <aside>
+@@ -375,19 +382,21 @@
+                Gb3
+              </article>
               <div />
             </li>
             <li
 -             className=\\"\\"
 +             className=\\"_1P\\"
             >
-              G3
+              <aside>
+                31
+              </aside>
+              <article>
+                G3
+              </article>
 -             <div />
 +             <div>
 +               1P
@@ -675,17 +1080,22 @@ exports[`renders correctly 4`] = `
             <li
               className=\\"\\"
             >
-              G#3
-@@ -244,14 +253,16 @@
-            >
-              A#3
+              <aside>
+@@ -419,19 +428,21 @@
+                A#3
+              </article>
               <div />
             </li>
             <li
 -             className=\\"\\"
 +             className=\\"_3M\\"
             >
-              B3
+              <aside>
+                35
+              </aside>
+              <article>
+                B3
+              </article>
 -             <div />
 +             <div>
 +               3M
@@ -694,17 +1104,22 @@ exports[`renders correctly 4`] = `
             <li
               className=\\"\\"
             >
-              C4
-@@ -262,14 +273,16 @@
-            >
-              Db4
+              <aside>
+@@ -452,19 +463,21 @@
+                Db4
+              </article>
               <div />
             </li>
             <li
 -             className=\\"\\"
 +             className=\\"_5P\\"
             >
-              D4
+              <aside>
+                38
+              </aside>
+              <article>
+                D4
+              </article>
 -             <div />
 +             <div>
 +               5P
@@ -714,16 +1129,21 @@ exports[`renders correctly 4`] = `
         </li>
         <li>
           <ol>
-@@ -344,14 +357,16 @@
-            >
-              Gb3
+@@ -599,19 +612,21 @@
+                Gb3
+              </article>
               <div />
             </li>
             <li
 -             className=\\"\\"
 +             className=\\"_1P\\"
             >
-              G3
+              <aside>
+                51
+              </aside>
+              <article>
+                G3
+              </article>
 -             <div />
 +             <div>
 +               1P

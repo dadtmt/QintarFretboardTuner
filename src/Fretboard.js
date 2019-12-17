@@ -1,4 +1,5 @@
 import React, { Fragment, useState } from 'react'
+import * as R from 'ramda'
 import { simplify } from '@tonaljs/note'
 import { chord } from '@tonaljs/chord'
 import classNames from 'classnames'
@@ -70,35 +71,37 @@ function Fretboard() {
       </form>
       <main>
         <ol>
-          {fretboard.map((guitarString, guitarStringIndex) => (
-            <li key={guitarStringIndex}>
-              <ol>
-                {guitarString.map(({ fret }) => (
-                  <li
-                    key={`${guitarStringIndex} - ${fret}`}
-                    className={classNames(
-                      chord(selectedChord).intervals[
-                        chord(selectedChord).notes.indexOf(fret)
-                      ] &&
-                        `_${
+          {R.splitEvery(13, fretboard).map(
+            (guitarString, guitarStringIndex) => (
+              <li key={guitarStringIndex}>
+                <ol>
+                  {guitarString.map(({ fret }) => (
+                    <li
+                      key={`${guitarStringIndex} - ${fret}`}
+                      className={classNames(
+                        chord(selectedChord).intervals[
+                          chord(selectedChord).notes.indexOf(fret)
+                        ] &&
+                          `_${
+                            chord(selectedChord).intervals[
+                              chord(selectedChord).notes.indexOf(fret)
+                            ]
+                          }`
+                      )}>
+                      {fret}
+                      <div>
+                        {
                           chord(selectedChord).intervals[
                             chord(selectedChord).notes.indexOf(fret)
                           ]
-                        }`
-                    )}>
-                    {fret}
-                    <div>
-                      {
-                        chord(selectedChord).intervals[
-                          chord(selectedChord).notes.indexOf(fret)
-                        ]
-                      }
-                    </div>
-                  </li>
-                ))}
-              </ol>
-            </li>
-          ))}
+                        }
+                      </div>
+                    </li>
+                  ))}
+                </ol>
+              </li>
+            )
+          )}
         </ol>
       </main>
     </Fragment>

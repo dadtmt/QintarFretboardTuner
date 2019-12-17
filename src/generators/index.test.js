@@ -1,8 +1,7 @@
 import {
   generateFretboard,
   generateString,
-  generateStringsFromDeepestNote,
-  setChordIntervals
+  generateStringsFromDeepestNote
 } from './index'
 
 describe('generateString', () => {
@@ -28,14 +27,5 @@ describe('generateString', () => {
 describe('generateFretboard', () => {
   it('generates a fretBoard', () => {
     expect(generateFretboard('F1')).toMatchSnapshot()
-  })
-})
-
-describe('setChordIntervals', () => {
-  it('sets the tonic', () => {
-    const fretboard = generateFretboard('F1')
-    const tonicE4 = 0
-    const chordType = { name: 'major', intervals: ['1P', '3M', '5P'] }
-    expect(setChordIntervals(fretboard, tonicE4, chordType)).toMatchSnapshot()
   })
 })

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`setChordIntervals C3maj7 sets the tonic 1`] = `
+exports[`setChordIntervals C3maj sets the tonic 1`] = `
 Array [
   Object {
     "fret": "E4",
@@ -65,7 +65,7 @@ Array [
   Object {
     "fret": "E5",
     "fretIndex": 12,
-    "selectedChordInterval": "1P",
+    "selectedChordInterval": "",
   },
   Object {
     "fret": "A3",
@@ -225,7 +225,7 @@ Array [
   Object {
     "fret": "C3",
     "fretIndex": 44,
-    "selectedChordInterval": "",
+    "selectedChordInterval": "1P",
   },
   Object {
     "fret": "C#3",

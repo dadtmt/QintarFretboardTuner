@@ -8,7 +8,7 @@ export const getInterval = (fret, tonic, chordNotes) => {
     `${letter}${acc}`,
     `${fret.note.letter}${fret.note.acc}`
   )
-  return dist === '1P' || dist === '0A'
+  return dist === '1P' || dist === '0A' || dist === '2d'
     ? interval
     : R.length(R.tail(chordNotes))
     ? getInterval(fret, tonic, R.tail(chordNotes))

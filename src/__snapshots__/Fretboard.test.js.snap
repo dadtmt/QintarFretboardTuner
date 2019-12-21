@@ -15,16 +15,9 @@ Array [
         value="F1"
       />
     </label>
-    <label
-      htmlFor="Selected Chord"
-    >
-      Selected Chord : 
-      <input
-        onChange={[Function]}
-        type="text"
-        value=""
-      />
-    </label>
+    <span>
+      Click on a fret to display major chords
+    </span>
   </form>,
   <main>
     <ol>
@@ -1089,80 +1082,8 @@ exports[`renders correctly 2`] = `
 +         not a valid note
 +       </span>
       </label>
-      <label
-        htmlFor=\\"Selected Chord\\"
-      >
-        Selected Chord : "
-`;
-
-exports[`renders correctly 3`] = `
-"Snapshot Diff:
-- First value
-+ Second value
-
-@@ -7,22 +7,28 @@
-      >
-        Deepest note : 
-        <input
-          onChange={[Function onChange]}
-          type=\\"text\\"
--         value=\\"F1\\"
-+         value=\\"xVfGu\\"
-        />
-+       <span>
-+         not a valid note
-+       </span>
-      </label>
-      <label
-        htmlFor=\\"Selected Chord\\"
-      >
-        Selected Chord : 
-        <input
-          onChange={[Function onChange]}
-          type=\\"text\\"
--         value=\\"\\"
-+         value=\\"xVfGu\\"
-        />
-+       <span>
-+         not a valid chord
-+       </span>
-      </label>
-    </form>,
-    <main>
-      <ol>
-        <li>"
-`;
-
-exports[`renders correctly 4`] = `
-"Snapshot Diff:
-- First value
-+ Second value
-
-@@ -7,21 +7,24 @@
-      >
-        Deepest note : 
-        <input
-          onChange={[Function onChange]}
-          type=\\"text\\"
--         value=\\"F1\\"
-+         value=\\"xVfGu\\"
-        />
-+       <span>
-+         not a valid note
-+       </span>
-      </label>
-      <label
-        htmlFor=\\"Selected Chord\\"
-      >
-        Selected Chord : 
-        <input
-          onChange={[Function onChange]}
-          type=\\"text\\"
--         value=\\"\\"
-+         value=\\"G3\\"
-        />
-      </label>
-    </form>,
-    <main>
-      <ol>"
+      <span>
+        Click on a fret to display major chords
+      </span>
+    </form>,"
 `;

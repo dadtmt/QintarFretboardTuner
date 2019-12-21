@@ -18,24 +18,6 @@ it('renders correctly', () => {
 
   const wrongNoteEventUpdate = component.toJSON()
   expect(tree).toMatchDiffSnapshot(wrongNoteEventUpdate)
-
-  const wrongChordEventValue = { target: { value: 'xVfGu' } }
-  act(() => {
-    component.root
-      .findAllByType('input')[1]
-      .props.onChange(wrongChordEventValue)
-  })
-
-  const wrongChordEventUpdate = component.toJSON()
-  expect(tree).toMatchDiffSnapshot(wrongChordEventUpdate)
-
-  const goodChordEventValue = { target: { value: 'G3' } }
-  act(() => {
-    component.root.findAllByType('input')[1].props.onChange(goodChordEventValue)
-  })
-
-  const goodChordEventUpdate = component.toJSON()
-  expect(tree).toMatchDiffSnapshot(goodChordEventUpdate)
 })
 
 it('renders without crashing', () => {

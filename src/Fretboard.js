@@ -1,7 +1,6 @@
 import React, { Fragment, useState } from 'react'
 import * as R from 'ramda'
 import { simplify } from '@tonaljs/note'
-import { chord } from '@tonaljs/chord'
 import { chordType } from '@tonaljs/chord-dictionary'
 import { generateFretboard } from './generators'
 import setChordIntervals from './generators/setChordIntervals'
@@ -53,12 +52,9 @@ function Fret({ fretIndex, note, selectedChordInterval, onClick }) {
 
 function Fretboard() {
   const initialDeepestNote = 'F1'
-  const initialChord = ''
-
   const [fretboard, setFretboard] = useState(
     generateFretboard(initialDeepestNote)
   )
-  const [selectedChord, setSelectedChord] = useState(initialChord)
   const major = chordType('major')
   return (
     <Fragment>
@@ -71,14 +67,7 @@ function Fretboard() {
           tonalType="note"
           validTonal={noteValue => noteValue !== ''}
         />
-        <TonalInput
-          initialValue={initialChord}
-          label="Selected Chord"
-          getTonal={chord}
-          setTonal={chordValue => setSelectedChord(chordValue.name)}
-          tonalType="chord"
-          validTonal={chordValue => !chordValue.empty}
-        />
+        <span>Click on a fret to display major chords</span>
       </form>
       <main>
         <ol>

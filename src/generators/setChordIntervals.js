@@ -1,10 +1,14 @@
 import * as R from 'ramda'
-import { note } from '@tonaljs/tonal'
+import { note, distance } from '@tonaljs/tonal'
 import { transposeFrom, enharmonic } from '@tonaljs/note'
 
 export const getInterval = (fret, tonic, chordNotes) => {
   const { letter, acc, interval } = R.head(chordNotes)
-  return letter === fret.note.letter && acc === fret.note.acc
+  const dist = distance(
+    `${letter}${acc}`,
+    `${fret.note.letter}${fret.note.acc}`
+  )
+  return dist === '1P' || dist === '0A'
     ? interval
     : R.length(R.tail(chordNotes))
     ? getInterval(fret, tonic, R.tail(chordNotes))

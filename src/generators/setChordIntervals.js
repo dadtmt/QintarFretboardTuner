@@ -1,17 +1,23 @@
 import * as R from 'ramda'
-import { transpose, note } from '@tonaljs/tonal'
+import { note } from '@tonaljs/tonal'
+import { transposeFrom, enharmonic } from '@tonaljs/note'
 
-export const getInterval = (fret, tonic, intervals) => {
-  const { letter, acc } = note(transpose(tonic, R.head(intervals)))
+export const getInterval = (fret, tonic, chordNotes) => {
+  const { letter, acc, interval } = R.head(chordNotes)
   return letter === fret.note.letter && acc === fret.note.acc
-    ? R.head(intervals)
-    : R.length(intervals)
-    ? getInterval(fret, tonic, R.tail(intervals))
+    ? interval
+    : R.length(R.tail(chordNotes))
+    ? getInterval(fret, tonic, R.tail(chordNotes))
     : ''
 }
 
-export default (fretboard, tonic, chord) =>
-  R.map(fret => ({
+export default (fretboard, tonic, chord) => {
+  const chordNotes = chord.intervals.map(interval => ({
+    ...R.pipe(transposeFrom(tonic), enharmonic, note)(interval),
+    interval
+  }))
+  return R.map(fret => ({
     ...fret,
-    selectedChordInterval: getInterval(fret, tonic, chord.intervals)
+    selectedChordInterval: getInterval(fret, tonic, chordNotes)
   }))(fretboard)
+}

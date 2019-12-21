@@ -1,6 +1,7 @@
 import * as R from 'ramda'
+import * as RA from 'ramda-adjunct'
 import { enharmonic, transposeFrom } from '@tonaljs/note'
-import { transpose } from '@tonaljs/tonal'
+import { transpose, note } from '@tonaljs/tonal'
 
 const fretIntervals = [
   'P1',
@@ -38,6 +39,12 @@ export const generateFretboard = R.memoizeWith(
   R.identity,
   R.pipe(
     generateStringsFromDeepestNote,
-    R.map(flatNote => generateString(flatNote))
+    R.map(R.pipe(generateString)),
+    R.flatten,
+    RA.mapIndexed((fret, fretIndex) => ({
+      note: note(fret),
+      fretIndex,
+      selectedChordInterval: ''
+    }))
   )
 )

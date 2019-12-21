@@ -1,8 +1,9 @@
 import React, { Fragment, useState } from 'react'
+import * as R from 'ramda'
 import { simplify } from '@tonaljs/note'
-import { chord } from '@tonaljs/chord'
-import classNames from 'classnames'
+import { chordType } from '@tonaljs/chord-dictionary'
 import { generateFretboard } from './generators'
+import setChordIntervals from './generators/setChordIntervals'
 import './Fretboard.css'
 
 function TonalInput({
@@ -39,15 +40,22 @@ function TonalInput({
   )
 }
 
+function Fret({ fretIndex, note, selectedChordInterval, onClick }) {
+  return (
+    <li onClick={onClick}>
+      <aside>{fretIndex}</aside>
+      <article>{note.name}</article>
+      <div>{selectedChordInterval}</div>
+    </li>
+  )
+}
+
 function Fretboard() {
   const initialDeepestNote = 'F1'
-  const initialChord = 'C3maj7'
-
   const [fretboard, setFretboard] = useState(
     generateFretboard(initialDeepestNote)
   )
-  const [selectedChord, setSelectedChord] = useState(initialChord)
-
+  const major = chordType('major')
   return (
     <Fragment>
       <form action="">
@@ -59,46 +67,29 @@ function Fretboard() {
           tonalType="note"
           validTonal={noteValue => noteValue !== ''}
         />
-        <TonalInput
-          initialValue={initialChord}
-          label="Selected Chord"
-          getTonal={chord}
-          setTonal={chordValue => setSelectedChord(chordValue.name)}
-          tonalType="chord"
-          validTonal={chordValue => !chordValue.empty}
-        />
+        <span>Click on a fret to display major chords</span>
       </form>
       <main>
         <ol>
-          {fretboard.map(guitarString => (
-            <li key={guitarString[0]}>
-              <ol>
-                {guitarString.map(fret => (
-                  <li
-                    key={fret}
-                    className={classNames(
-                      chord(selectedChord).intervals[
-                        chord(selectedChord).notes.indexOf(fret)
-                      ] &&
-                        `_${
-                          chord(selectedChord).intervals[
-                            chord(selectedChord).notes.indexOf(fret)
-                          ]
-                        }`
-                    )}>
-                    {fret}
-                    <div>
-                      {
-                        chord(selectedChord).intervals[
-                          chord(selectedChord).notes.indexOf(fret)
-                        ]
-                      }
-                    </div>
-                  </li>
-                ))}
-              </ol>
-            </li>
-          ))}
+          {R.splitEvery(13, fretboard).map(
+            (guitarString, guitarStringIndex) => (
+              <li key={guitarStringIndex}>
+                <ol>
+                  {guitarString.map(fret => (
+                    <Fret
+                      {...fret}
+                      key={fret.fretIndex}
+                      onClick={() => {
+                        setFretboard(
+                          setChordIntervals(fretboard, fret.note, major)
+                        )
+                      }}
+                    />
+                  ))}
+                </ol>
+              </li>
+            )
+          )}
         </ol>
       </main>
     </Fragment>

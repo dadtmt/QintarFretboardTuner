@@ -15,357 +15,181 @@ Array [
         value="F1"
       />
     </label>
-    <label
-      htmlFor="Selected Chord"
-    >
-      Selected Chord : 
-      <input
-        onChange={[Function]}
-        type="text"
-        value="C3maj7"
-      />
-    </label>
+    <span>
+      Click on a fret to display major chords
+    </span>
   </form>,
   <main>
     <ol>
       <li>
         <ol>
           <li
-            className=""
+            onClick={[Function]}
           >
-            E4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            F4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            Gb4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            G4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            Ab4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            A4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            A#4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            B4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            C5
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            Db5
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            D5
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            Eb5
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            E5
-            <div />
-          </li>
-        </ol>
-      </li>
-      <li>
-        <ol>
-          <li
-            className=""
-          >
-            A3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            A#3
-            <div />
-          </li>
-          <li
-            className="_7M"
-          >
-            B3
+            <aside>
+              0
+            </aside>
+            <article>
+              E4
+            </article>
             <div>
-              7M
+              
             </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            C4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            Db4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            D4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            D#4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            E4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            F4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            Gb4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            G4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            Ab4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            A4
-            <div />
-          </li>
-        </ol>
-      </li>
-      <li>
-        <ol>
-          <li
-            className=""
-          >
-            D3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            D#3
-            <div />
-          </li>
-          <li
-            className="_3M"
-          >
-            E3
+            <aside>
+              1
+            </aside>
+            <article>
+              F4
+            </article>
             <div>
-              3M
+              
             </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            F3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            Gb3
-            <div />
-          </li>
-          <li
-            className="_5P"
-          >
-            G3
+            <aside>
+              2
+            </aside>
+            <article>
+              Gb4
+            </article>
             <div>
-              5P
+              
             </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            G#3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            A3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            A#3
-            <div />
-          </li>
-          <li
-            className="_7M"
-          >
-            B3
+            <aside>
+              3
+            </aside>
+            <article>
+              G4
+            </article>
             <div>
-              7M
+              
             </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            C4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            Db4
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            D4
-            <div />
-          </li>
-        </ol>
-      </li>
-      <li>
-        <ol>
-          <li
-            className=""
-          >
-            G2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            G#2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            A2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            A#2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            B2
-            <div />
-          </li>
-          <li
-            className="_1P"
-          >
-            C3
+            <aside>
+              4
+            </aside>
+            <article>
+              Ab4
+            </article>
             <div>
-              1P
+              
             </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            C#3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            D3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            D#3
-            <div />
-          </li>
-          <li
-            className="_3M"
-          >
-            E3
+            <aside>
+              5
+            </aside>
+            <article>
+              A4
+            </article>
             <div>
-              3M
+              
             </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            F3
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            Gb3
-            <div />
-          </li>
-          <li
-            className="_5P"
-          >
-            G3
+            <aside>
+              6
+            </aside>
+            <article>
+              A#4
+            </article>
             <div>
-              5P
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              7
+            </aside>
+            <article>
+              B4
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              8
+            </aside>
+            <article>
+              C5
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              9
+            </aside>
+            <article>
+              Db5
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              10
+            </aside>
+            <article>
+              D5
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              11
+            </aside>
+            <article>
+              Eb5
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              12
+            </aside>
+            <article>
+              E5
+            </article>
+            <div>
+              
             </div>
           </li>
         </ol>
@@ -373,83 +197,172 @@ Array [
       <li>
         <ol>
           <li
-            className=""
+            onClick={[Function]}
           >
-            C2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            C#2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            D2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            D#2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            E2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            F2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            F#2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            G2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            G#2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            A2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            A#2
-            <div />
-          </li>
-          <li
-            className=""
-          >
-            B2
-            <div />
-          </li>
-          <li
-            className="_1P"
-          >
-            C3
+            <aside>
+              13
+            </aside>
+            <article>
+              A3
+            </article>
             <div>
-              1P
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              14
+            </aside>
+            <article>
+              A#3
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              15
+            </aside>
+            <article>
+              B3
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              16
+            </aside>
+            <article>
+              C4
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              17
+            </aside>
+            <article>
+              Db4
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              18
+            </aside>
+            <article>
+              D4
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              19
+            </aside>
+            <article>
+              D#4
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              20
+            </aside>
+            <article>
+              E4
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              21
+            </aside>
+            <article>
+              F4
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              22
+            </aside>
+            <article>
+              Gb4
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              23
+            </aside>
+            <article>
+              G4
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              24
+            </aside>
+            <article>
+              Ab4
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              25
+            </aside>
+            <article>
+              A4
+            </article>
+            <div>
+              
             </div>
           </li>
         </ol>
@@ -457,82 +370,692 @@ Array [
       <li>
         <ol>
           <li
-            className=""
+            onClick={[Function]}
           >
-            F1
-            <div />
+            <aside>
+              26
+            </aside>
+            <article>
+              D3
+            </article>
+            <div>
+              
+            </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            F#1
-            <div />
+            <aside>
+              27
+            </aside>
+            <article>
+              D#3
+            </article>
+            <div>
+              
+            </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            G1
-            <div />
+            <aside>
+              28
+            </aside>
+            <article>
+              E3
+            </article>
+            <div>
+              
+            </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            G#1
-            <div />
+            <aside>
+              29
+            </aside>
+            <article>
+              F3
+            </article>
+            <div>
+              
+            </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            A1
-            <div />
+            <aside>
+              30
+            </aside>
+            <article>
+              Gb3
+            </article>
+            <div>
+              
+            </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            A#1
-            <div />
+            <aside>
+              31
+            </aside>
+            <article>
+              G3
+            </article>
+            <div>
+              
+            </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            B1
-            <div />
+            <aside>
+              32
+            </aside>
+            <article>
+              G#3
+            </article>
+            <div>
+              
+            </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            C2
-            <div />
+            <aside>
+              33
+            </aside>
+            <article>
+              A3
+            </article>
+            <div>
+              
+            </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            C#2
-            <div />
+            <aside>
+              34
+            </aside>
+            <article>
+              A#3
+            </article>
+            <div>
+              
+            </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            D2
-            <div />
+            <aside>
+              35
+            </aside>
+            <article>
+              B3
+            </article>
+            <div>
+              
+            </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            D#2
-            <div />
+            <aside>
+              36
+            </aside>
+            <article>
+              C4
+            </article>
+            <div>
+              
+            </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            E2
-            <div />
+            <aside>
+              37
+            </aside>
+            <article>
+              Db4
+            </article>
+            <div>
+              
+            </div>
           </li>
           <li
-            className=""
+            onClick={[Function]}
           >
-            F2
-            <div />
+            <aside>
+              38
+            </aside>
+            <article>
+              D4
+            </article>
+            <div>
+              
+            </div>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <ol>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              39
+            </aside>
+            <article>
+              G2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              40
+            </aside>
+            <article>
+              G#2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              41
+            </aside>
+            <article>
+              A2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              42
+            </aside>
+            <article>
+              A#2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              43
+            </aside>
+            <article>
+              B2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              44
+            </aside>
+            <article>
+              C3
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              45
+            </aside>
+            <article>
+              C#3
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              46
+            </aside>
+            <article>
+              D3
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              47
+            </aside>
+            <article>
+              D#3
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              48
+            </aside>
+            <article>
+              E3
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              49
+            </aside>
+            <article>
+              F3
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              50
+            </aside>
+            <article>
+              Gb3
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              51
+            </aside>
+            <article>
+              G3
+            </article>
+            <div>
+              
+            </div>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <ol>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              52
+            </aside>
+            <article>
+              C2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              53
+            </aside>
+            <article>
+              C#2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              54
+            </aside>
+            <article>
+              D2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              55
+            </aside>
+            <article>
+              D#2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              56
+            </aside>
+            <article>
+              E2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              57
+            </aside>
+            <article>
+              F2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              58
+            </aside>
+            <article>
+              F#2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              59
+            </aside>
+            <article>
+              G2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              60
+            </aside>
+            <article>
+              G#2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              61
+            </aside>
+            <article>
+              A2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              62
+            </aside>
+            <article>
+              A#2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              63
+            </aside>
+            <article>
+              B2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              64
+            </aside>
+            <article>
+              C3
+            </article>
+            <div>
+              
+            </div>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <ol>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              65
+            </aside>
+            <article>
+              F1
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              66
+            </aside>
+            <article>
+              F#1
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              67
+            </aside>
+            <article>
+              G1
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              68
+            </aside>
+            <article>
+              G#1
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              69
+            </aside>
+            <article>
+              A1
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              70
+            </aside>
+            <article>
+              A#1
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              71
+            </aside>
+            <article>
+              B1
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              72
+            </aside>
+            <article>
+              C2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              73
+            </aside>
+            <article>
+              C#2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              74
+            </aside>
+            <article>
+              D2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              75
+            </aside>
+            <article>
+              D#2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              76
+            </aside>
+            <article>
+              E2
+            </article>
+            <div>
+              
+            </div>
+          </li>
+          <li
+            onClick={[Function]}
+          >
+            <aside>
+              77
+            </aside>
+            <article>
+              F2
+            </article>
+            <div>
+              
+            </div>
           </li>
         </ol>
       </li>
@@ -559,266 +1082,8 @@ exports[`renders correctly 2`] = `
 +         not a valid note
 +       </span>
       </label>
-      <label
-        htmlFor=\\"Selected Chord\\"
-      >
-        Selected Chord : "
-`;
-
-exports[`renders correctly 3`] = `
-"Snapshot Diff:
-- First value
-+ Second value
-
-@@ -7,22 +7,28 @@
-      >
-        Deepest note : 
-        <input
-          onChange={[Function onChange]}
-          type=\\"text\\"
--         value=\\"F1\\"
-+         value=\\"xVfGu\\"
-        />
-+       <span>
-+         not a valid note
-+       </span>
-      </label>
-      <label
-        htmlFor=\\"Selected Chord\\"
-      >
-        Selected Chord : 
-        <input
-          onChange={[Function onChange]}
-          type=\\"text\\"
--         value=\\"C3maj7\\"
-+         value=\\"xVfGu\\"
-        />
-+       <span>
-+         not a valid chord
-+       </span>
-      </label>
-    </form>,
-    <main>
-      <ol>
-        <li>"
-`;
-
-exports[`renders correctly 4`] = `
-"Snapshot Diff:
-- First value
-+ Second value
-
-@@ -7,21 +7,24 @@
-      >
-        Deepest note : 
-        <input
-          onChange={[Function onChange]}
-          type=\\"text\\"
--         value=\\"F1\\"
-+         value=\\"xVfGu\\"
-        />
-+       <span>
-+         not a valid note
-+       </span>
-      </label>
-      <label
-        htmlFor=\\"Selected Chord\\"
-      >
-        Selected Chord : 
-        <input
-          onChange={[Function onChange]}
-          type=\\"text\\"
--         value=\\"C3maj7\\"
-+         value=\\"G3\\"
-        />
-      </label>
-    </form>,
-    <main>
-      <ol>
-@@ -120,15 +123,15 @@
-            >
-              A#3
-              <div />
-            </li>
-            <li
--             className=\\"_7M\\"
-+             className=\\"_3M\\"
-            >
-              B3
-              <div>
--               7M
-+               3M
-              </div>
-            </li>
-            <li
-              className=\\"\\"
-            >
-@@ -140,14 +143,16 @@
-            >
-              Db4
-              <div />
-            </li>
-            <li
--             className=\\"\\"
-+             className=\\"_5P\\"
-            >
-              D4
--             <div />
-+             <div>
-+               5P
-+             </div>
-            </li>
-            <li
-              className=\\"\\"
-            >
-              D#4
-@@ -204,16 +209,14 @@
-            >
-              D#3
-              <div />
-            </li>
-            <li
--             className=\\"_3M\\"
-+             className=\\"\\"
-            >
-              E3
--             <div>
--               3M
--             </div>
-+             <div />
-            </li>
-            <li
-              className=\\"\\"
-            >
-              F3
-@@ -224,15 +227,15 @@
-            >
-              Gb3
-              <div />
-            </li>
-            <li
--             className=\\"_5P\\"
-+             className=\\"_1P\\"
-            >
-              G3
-              <div>
--               5P
-+               1P
-              </div>
-            </li>
-            <li
-              className=\\"\\"
-            >
-@@ -250,15 +253,15 @@
-            >
-              A#3
-              <div />
-            </li>
-            <li
--             className=\\"_7M\\"
-+             className=\\"_3M\\"
-            >
-              B3
-              <div>
--               7M
-+               3M
-              </div>
-            </li>
-            <li
-              className=\\"\\"
-            >
-@@ -270,14 +273,16 @@
-            >
-              Db4
-              <div />
-            </li>
-            <li
--             className=\\"\\"
-+             className=\\"_5P\\"
-            >
-              D4
--             <div />
-+             <div>
-+               5P
-+             </div>
-            </li>
-          </ol>
-        </li>
-        <li>
-          <ol>
-@@ -310,16 +315,14 @@
-            >
-              B2
-              <div />
-            </li>
-            <li
--             className=\\"_1P\\"
-+             className=\\"\\"
-            >
-              C3
--             <div>
--               1P
--             </div>
-+             <div />
-            </li>
-            <li
-              className=\\"\\"
-            >
-              C#3
-@@ -336,16 +339,14 @@
-            >
-              D#3
-              <div />
-            </li>
-            <li
--             className=\\"_3M\\"
-+             className=\\"\\"
-            >
-              E3
--             <div>
--               3M
--             </div>
-+             <div />
-            </li>
-            <li
-              className=\\"\\"
-            >
-              F3
-@@ -356,15 +357,15 @@
-            >
-              Gb3
-              <div />
-            </li>
-            <li
--             className=\\"_5P\\"
-+             className=\\"_1P\\"
-            >
-              G3
-              <div>
--               5P
-+               1P
-              </div>
-            </li>
-          </ol>
-        </li>
-        <li>
-@@ -440,16 +441,14 @@
-            >
-              B2
-              <div />
-            </li>
-            <li
--             className=\\"_1P\\"
-+             className=\\"\\"
-            >
-              C3
--             <div>
--               1P
--             </div>
-+             <div />
-            </li>
-          </ol>
-        </li>
-        <li>
-          <ol>"
+      <span>
+        Click on a fret to display major chords
+      </span>
+    </form>,"
 `;

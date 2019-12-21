@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`setChordIntervals C3maj sets the tonic 1`] = `
+exports[`setChordIntervals C3maj sets intervals 1`] = `
 Array [
   Object {
     "fretIndex": 0,
@@ -22,7 +22,7 @@ Array [
       "pc": "E",
       "step": 2,
     },
-    "selectedChordInterval": "",
+    "selectedChordInterval": "3M",
   },
   Object {
     "fretIndex": 1,
@@ -88,7 +88,7 @@ Array [
       "pc": "G",
       "step": 4,
     },
-    "selectedChordInterval": "",
+    "selectedChordInterval": "5P",
   },
   Object {
     "fretIndex": 4,
@@ -286,7 +286,7 @@ Array [
       "pc": "E",
       "step": 2,
     },
-    "selectedChordInterval": "",
+    "selectedChordInterval": "3M",
   },
   Object {
     "fretIndex": 13,
@@ -462,7 +462,7 @@ Array [
       "pc": "E",
       "step": 2,
     },
-    "selectedChordInterval": "",
+    "selectedChordInterval": "3M",
   },
   Object {
     "fretIndex": 21,
@@ -528,7 +528,7 @@ Array [
       "pc": "G",
       "step": 4,
     },
-    "selectedChordInterval": "",
+    "selectedChordInterval": "5P",
   },
   Object {
     "fretIndex": 24,
@@ -638,7 +638,7 @@ Array [
       "pc": "E",
       "step": 2,
     },
-    "selectedChordInterval": "",
+    "selectedChordInterval": "3M",
   },
   Object {
     "fretIndex": 29,
@@ -704,7 +704,7 @@ Array [
       "pc": "G",
       "step": 4,
     },
-    "selectedChordInterval": "",
+    "selectedChordInterval": "5P",
   },
   Object {
     "fretIndex": 32,
@@ -880,7 +880,7 @@ Array [
       "pc": "G",
       "step": 4,
     },
-    "selectedChordInterval": "",
+    "selectedChordInterval": "5P",
   },
   Object {
     "fretIndex": 40,
@@ -1078,7 +1078,7 @@ Array [
       "pc": "E",
       "step": 2,
     },
-    "selectedChordInterval": "",
+    "selectedChordInterval": "3M",
   },
   Object {
     "fretIndex": 49,
@@ -1144,7 +1144,7 @@ Array [
       "pc": "G",
       "step": 4,
     },
-    "selectedChordInterval": "",
+    "selectedChordInterval": "5P",
   },
   Object {
     "fretIndex": 52,
@@ -1254,7 +1254,7 @@ Array [
       "pc": "E",
       "step": 2,
     },
-    "selectedChordInterval": "",
+    "selectedChordInterval": "3M",
   },
   Object {
     "fretIndex": 57,
@@ -1320,7 +1320,7 @@ Array [
       "pc": "G",
       "step": 4,
     },
-    "selectedChordInterval": "",
+    "selectedChordInterval": "5P",
   },
   Object {
     "fretIndex": 60,
@@ -1496,7 +1496,7 @@ Array [
       "pc": "G",
       "step": 4,
     },
-    "selectedChordInterval": "",
+    "selectedChordInterval": "5P",
   },
   Object {
     "fretIndex": 68,
@@ -1694,7 +1694,7 @@ Array [
       "pc": "E",
       "step": 2,
     },
-    "selectedChordInterval": "",
+    "selectedChordInterval": "3M",
   },
   Object {
     "fretIndex": 77,

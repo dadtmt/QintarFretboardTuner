@@ -3,7 +3,7 @@ import { generateFretboard } from '.'
 import { note } from '@tonaljs/tonal'
 
 describe('setChordIntervals C3maj', () => {
-  it('sets the tonic', () => {
+  it('sets intervals', () => {
     const fretboard = generateFretboard('F1')
     const fretC3 = {
       fretIndex: 44,

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@tonaljs/chord": "^3.2.3",
+    "@tonaljs/chord-dictionary": "^3.3.0",
     "@tonaljs/note": "^3.2.4",
     "@tonaljs/tonal": "^3.2.2",
     "classnames": "^2.2.6",

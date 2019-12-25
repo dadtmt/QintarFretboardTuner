@@ -69,7 +69,7 @@ function Fretboard() {
         />
         <span>Click on a fret to display major chords</span>
       </form>
-      <main>
+      <main className="Fretboard">
         <ol>
           {R.splitEvery(13, fretboard).map(
             (guitarString, guitarStringIndex) => (

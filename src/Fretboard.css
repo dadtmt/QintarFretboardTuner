@@ -5,7 +5,7 @@
     --color-white-fret: #FFCDAA;
   }
   
-  ol {
+  .Fretboard ol {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -14,48 +14,48 @@
     padding: 0;
   }
   
-  li>ol {
+  .Fretboard li>ol {
     height: 15vh;
     flex-direction: row;  
   }
   
-  li {
+  .Fretboard li {
     list-style-type: none;
   }
   
-  li li {
+  .Fretboard li li {
     width: 100%;
     text-align: center;
     padding-top: 0.2rem;
   }
   
-  li:nth-child(odd) li:nth-child(odd) {
+  .Fretboard li:nth-child(odd) li:nth-child(odd) {
     background: var(--background-white-fret);
     color: var(--color-white-fret);
     
   }
-  li:nth-child(odd) li:nth-child(even) {
+  .Fretboard li:nth-child(odd) li:nth-child(even) {
     background: var(--background-black-fret);
     color: var(--color-black-fret);
     
   }
-  li:nth-child(even) li:nth-child(even) {
+  .Fretboard li:nth-child(even) li:nth-child(even) {
     background: var(--background-white-fret);
     color: var(--color-white-fret);
     
   }
-  li:nth-child(even) li:nth-child(odd) {
+  .Fretboard li:nth-child(even) li:nth-child(odd) {
     background: var(--background-black-fret);
     color: var(--color-black-fret);
     
   }
   
-  li:nth-child(even) {
+  .Fretboard li:nth-child(even) {
     background: #2D4671;
     color: #7689A9;
   }
   
-  li:nth-child(odd) {
+  .Fretboard li:nth-child(odd) {
     background: #408E2F;
     color: #9AD58E;
   }

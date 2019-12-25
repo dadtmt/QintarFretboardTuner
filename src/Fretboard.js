@@ -4,7 +4,9 @@ import { simplify } from '@tonaljs/note'
 import { chordType } from '@tonaljs/chord-dictionary'
 import { generateFretboard } from './generators'
 import setChordIntervals from './generators/setChordIntervals'
+
 import './Fretboard.css'
+import SuggestChord from './SuggestChord'
 
 function TonalInput({
   initialValue,
@@ -67,7 +69,7 @@ function Fretboard() {
           tonalType="note"
           validTonal={noteValue => noteValue !== ''}
         />
-        <span>Click on a fret to display major chords</span>
+        <SuggestChord />
       </form>
       <main>
         <ol>

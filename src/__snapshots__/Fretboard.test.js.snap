@@ -15,9 +15,33 @@ Array [
         value="F1"
       />
     </label>
-    <span>
-      Click on a fret to display major chords
-    </span>
+    <div
+      aria-expanded={false}
+      aria-haspopup="listbox"
+      aria-owns="react-autowhatever-1"
+      className="react-autosuggest__container"
+      role="combobox"
+    >
+      <input
+        aria-activedescendant={null}
+        aria-autocomplete="list"
+        aria-controls="react-autowhatever-1"
+        autoComplete="off"
+        className="react-autosuggest__input"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder="Choose a chord"
+        type="text"
+        value=""
+      />
+      <div
+        className="react-autosuggest__suggestions-container"
+        id="react-autowhatever-1"
+        role="listbox"
+      />
+    </div>
   </form>,
   <main>
     <ol>
@@ -1082,8 +1106,8 @@ exports[`renders correctly 2`] = `
 +         not a valid note
 +       </span>
       </label>
-      <span>
-        Click on a fret to display major chords
-      </span>
-    </form>,"
+      <div
+        aria-expanded={false}
+        aria-haspopup=\\"listbox\\"
+        aria-owns=\\"react-autowhatever-1\\""
 `;

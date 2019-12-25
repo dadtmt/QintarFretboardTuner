@@ -6,15 +6,16 @@ export const chordSuggestions = entries()
   .map(chordType => chordType.name)
   .filter(chordType => chordType)
 
-const getSuggestions = value => {
+export const getSuggestions = value => {
   const inputValue = value.trim().toLowerCase()
-  const inputLength = inputValue.length
-
-  return inputLength === 0
-    ? chordSuggestions
-    : chordSuggestions.filter(
-        value => value.toLowerCase().slice(0, inputLength) === inputValue
-      )
+  return chordSuggestions
+    .map(suggestion => ({
+      name: suggestion,
+      valueIndex: suggestion.indexOf(inputValue)
+    }))
+    .filter(({ valueIndex }) => valueIndex >= 0)
+    .sort((a, b) => a.valueIndex - b.valueIndex)
+    .map(({ name }) => name)
 }
 
 const getSuggestionValue = suggestion => suggestion

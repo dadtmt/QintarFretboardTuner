@@ -2,13 +2,25 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import renderer, { act } from 'react-test-renderer'
 import { toMatchDiffSnapshot } from 'snapshot-diff'
-import SuggestChord, { chordSuggestions } from './SuggestChord'
+import SuggestChord, { chordSuggestions, getSuggestions } from './SuggestChord'
 
 expect.extend({ toMatchDiffSnapshot })
 
 describe('chordSuggestions', () => {
   it('suggest all chord names', () => {
     expect(chordSuggestions).toMatchSnapshot()
+  })
+})
+
+describe('getSuggestions', () => {
+  it('get suggestions for value m', () => {
+    expect(getSuggestions('m')).toMatchSnapshot()
+  })
+  it('get suggestions for empty value', () => {
+    expect(getSuggestions('')).toMatchSnapshot()
+  })
+  it('get suggestions for value wav', () => {
+    expect(getSuggestions('wav')).toMatchSnapshot()
   })
 })
 

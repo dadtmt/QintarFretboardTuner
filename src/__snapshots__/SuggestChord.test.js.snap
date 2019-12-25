@@ -68,3 +68,73 @@ Array [
   "dominant b9",
 ]
 `;
+
+exports[`getSuggestions get suggestions for empty value 1`] = `
+Array [
+  "fifth",
+  "suspended 4th",
+  "suspended 4th seventh",
+  "augmented",
+  "major seventh b6",
+  "augmented seventh",
+  "major",
+  "major seventh",
+  "dominant seventh",
+  "sixth",
+  "lydian",
+  "lydian dominant seventh",
+  "minor",
+  "minor/major seventh",
+  "minor seventh",
+  "minor sixth",
+  "diminished",
+  "half-diminished",
+  "diminished seventh",
+  "dominant #9",
+  "suspended 2nd",
+  "eleventh",
+  "major ninth",
+  "dominant ninth",
+  "sixth/ninth",
+  "major thirteenth",
+  "dominant thirteenth",
+  "major #11 (lydian)",
+  "minor ninth",
+  "minor thirteenth",
+  "minor eleventh",
+  "suspended 4th b9",
+  "altered",
+  "dominant b9",
+]
+`;
+
+exports[`getSuggestions get suggestions for value m 1`] = `
+Array [
+  "major seventh b6",
+  "major",
+  "major seventh",
+  "minor",
+  "minor/major seventh",
+  "minor seventh",
+  "minor sixth",
+  "major ninth",
+  "major thirteenth",
+  "major #11 (lydian)",
+  "minor ninth",
+  "minor thirteenth",
+  "minor eleventh",
+  "dominant seventh",
+  "diminished",
+  "diminished seventh",
+  "dominant #9",
+  "dominant ninth",
+  "dominant thirteenth",
+  "dominant b9",
+  "augmented",
+  "augmented seventh",
+  "half-diminished",
+  "lydian dominant seventh",
+]
+`;
+
+exports[`getSuggestions get suggestions for value wav 1`] = `Array []`;

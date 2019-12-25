@@ -3,11 +3,8 @@ import { note, distance } from '@tonaljs/tonal'
 import { transposeFrom, enharmonic } from '@tonaljs/note'
 
 export const getInterval = (fret, tonic, chordNotes) => {
-  const { letter, acc, interval } = R.head(chordNotes)
-  const dist = distance(
-    `${letter}${acc}`,
-    `${fret.note.letter}${fret.note.acc}`
-  )
+  const { pc, interval } = R.head(chordNotes)
+  const dist = distance(pc, fret.note.pc)
   return dist === '1P' || dist === '0A' || dist === '2d'
     ? interval
     : R.length(R.tail(chordNotes))

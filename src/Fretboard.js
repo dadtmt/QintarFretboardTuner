@@ -71,7 +71,7 @@ function Fretboard() {
         />
         <SuggestChord />
       </form>
-      <main>
+      <main className="Fretboard">
         <ol>
           {R.splitEvery(13, fretboard).map(
             (guitarString, guitarStringIndex) => (

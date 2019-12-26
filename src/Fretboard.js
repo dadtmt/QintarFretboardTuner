@@ -57,7 +57,7 @@ function Fretboard() {
   const [fretboard, setFretboard] = useState(
     generateFretboard(initialDeepestNote)
   )
-  const major = chordType('major')
+  const [selectedChord, setSelectedChord] = useState('')
   return (
     <Fragment>
       <form action="">
@@ -69,7 +69,8 @@ function Fretboard() {
           tonalType="note"
           validTonal={noteValue => noteValue !== ''}
         />
-        <SuggestChord />
+        <SuggestChord onChordChange={value => setSelectedChord(value)} />{' '}
+        {selectedChord}
       </form>
       <main className="Fretboard">
         <ol>
@@ -83,7 +84,11 @@ function Fretboard() {
                       key={fret.fretIndex}
                       onClick={() => {
                         setFretboard(
-                          setChordIntervals(fretboard, fret.note, major)
+                          setChordIntervals(
+                            fretboard,
+                            fret.note,
+                            chordType(selectedChord)
+                          )
                         )
                       }}
                     />

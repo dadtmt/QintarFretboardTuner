@@ -17,6 +17,7 @@ export default (fretboard, tonic, chord) => {
     ...R.pipe(transposeFrom(tonic), enharmonic, note)(interval),
     interval
   }))
+  console.log(chord)
   return R.map(fret => ({
     ...fret,
     selectedChordInterval: getInterval(fret, tonic, chordNotes)

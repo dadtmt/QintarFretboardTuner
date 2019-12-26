@@ -22,10 +22,21 @@ const getSuggestionValue = suggestion => suggestion
 
 const renderSuggestion = suggestion => <div>{suggestion}</div>
 
-function SuggestChord() {
+function SuggestChord({ onChordChange }) {
   const [value, setValue] = useState('')
   const [suggestions, setSuggestions] = useState(chordSuggestions)
-  const onChange = (event, { newValue }) => setValue(newValue)
+  const onChange = (event, { newValue, method }) => {
+    setValue(newValue)
+    console.log(method)
+    switch (method) {
+      case 'type':
+        break
+      default:
+        if (chordSuggestions.includes(newValue)) {
+          onChordChange(newValue)
+        }
+    }
+  }
   const onSuggestionsFetchRequested = ({ value }) =>
     setSuggestions(getSuggestions(value))
   const onSuggestionsClearRequested = () => setSuggestions(chordSuggestions)

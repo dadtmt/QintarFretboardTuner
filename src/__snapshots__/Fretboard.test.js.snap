@@ -42,6 +42,8 @@ Array [
         role="listbox"
       />
     </div>
+     
+    
   </form>,
   <main
     className="Fretboard"
